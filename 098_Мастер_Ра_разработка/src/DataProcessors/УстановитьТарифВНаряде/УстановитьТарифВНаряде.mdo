@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88b962c5-da63-488e-8fad-47983ebf0593">
+  <producedTypes>
+    <objectType typeId="f30b4333-49c4-4df8-af1b-7144c77811c8" valueTypeId="039fa380-ef59-4786-99e1-12800d296563"/>
+    <managerType typeId="65ecaa32-81cf-4e47-baf9-ad1f3846c490" valueTypeId="4680a133-7bcb-48e6-bc30-1dff9e3d3c09"/>
+  </producedTypes>
+  <name>УстановитьТарифВНаряде</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить тариф в наряде</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановитьТарифВНаряде.Form.Форма</defaultForm>
+  <forms uuid="19ed7205-4178-4170-aa68-ba1aeeba084f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17aef2d6-aaec-4312-81fd-0b30b0d983f7">
+  <producedTypes>
+    <refType typeId="c979794f-1dbc-49be-a3d3-0f122f6ef361" valueTypeId="7d153c4d-38b8-489e-a416-2a5001946cc5"/>
+    <listType typeId="5d2eff03-1e4d-411c-8733-94856c54af12" valueTypeId="c6879ca7-21fd-45cc-8c74-7234329ccb79"/>
+    <managerType typeId="d7a1c3f1-ba79-42ba-86e5-85f58469d70d" valueTypeId="88277a98-f3c1-47d0-89c7-6c4e0ec657ed"/>
+  </producedTypes>
+  <name>СпособыРасчетаТарифов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета тарифов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9a856bc0-facc-4812-8185-02a265ebaf19">
+    <name>КвадратныйМетр</name>
+    <synonym>
+      <key>ru</key>
+      <value>м2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76a3d078-9f2f-4745-864c-024507c5f26d">
+    <name>МетрПогонный</name>
+    <synonym>
+      <key>ru</key>
+      <value>м. п.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

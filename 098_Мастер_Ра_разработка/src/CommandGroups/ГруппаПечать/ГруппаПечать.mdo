@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ef20d9-0951-4112-bf15-70d0d65cacea">
+  <name>ГруппаПечать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

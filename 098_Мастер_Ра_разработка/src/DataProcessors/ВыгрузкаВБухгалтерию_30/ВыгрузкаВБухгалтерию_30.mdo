@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32a5d3b9-f64d-46a7-8920-cbcebff00954">
+  <producedTypes>
+    <objectType typeId="092fc3db-da4d-4037-97f3-bfe0f7ec1688" valueTypeId="c9dea61f-ecec-452f-86f7-5d38b06f63bc"/>
+    <managerType typeId="14b033fb-ccf4-426e-b203-b8b2391dbcd7" valueTypeId="2dbbd4be-d280-4264-9a74-2b15eec9c02c"/>
+  </producedTypes>
+  <name>ВыгрузкаВБухгалтерию_30</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в бухгалтерию 30</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаВБухгалтерию_30.Form.Форма</defaultForm>
+  <attributes uuid="e311ea0f-73e3-437e-878c-66eeda6db6e4">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67011b8a-12f7-4e40-a5d2-62092d8dcbd6">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="205b9248-e044-4a7c-9a56-b323857f5f08">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b459fa86-ad03-42ad-a9ab-fbb126c296ec">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>
