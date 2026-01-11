@@ -121,4 +121,19 @@
       <value>7% / 107%</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="ade8f3c7-2231-486a-b6ee-ff082acad403">
+    <name>НДС22</name>
+    <synonym>
+      <key>ru</key>
+      <value>22%</value>
+    </synonym>
+    <comment>(Общ) Ставка НДС 22%</comment>
+  </enumValues>
+  <enumValues uuid="30328dcc-e05d-46ef-8ac9-b0a9b8fec7c3">
+    <name>НДС22_122</name>
+    <synonym>
+      <key>ru</key>
+      <value>22% / 122%</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
