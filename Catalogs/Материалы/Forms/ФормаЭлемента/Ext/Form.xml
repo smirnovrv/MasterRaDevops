@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Длинна" id="10">
+			<DataPath>Объект.Длинна</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДлиннаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДлиннаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ЕдиницаИзмерения" id="13">
+			<DataPath>Объект.ЕдиницаИзмерения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="МатериалОсновы" id="16">
+			<DataPath>Объект.МатериалОсновы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МатериалОсновыКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="МатериалОсновыРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="НоменклатураБухгалтерии" id="19">
+			<DataPath>Объект.НоменклатураБухгалтерии</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НоменклатураБухгалтерииКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="НоменклатураБухгалтерииРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Плотность" id="22">
+			<DataPath>Объект.Плотность</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПлотностьКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ПлотностьРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Поставщик" id="25">
+			<DataPath>Объект.Поставщик</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПоставщикКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ТипМатериала" id="28">
+			<DataPath>Объект.ТипМатериала</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТипМатериалаКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ТипМатериалаРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Ширина" id="31">
+			<DataPath>Объект.Ширина</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ШиринаКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ШиринаРасширеннаяПодсказка" id="33"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Материалы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

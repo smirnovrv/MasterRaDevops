@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСоздатьДокумент" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СоздатьДокумент</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьДокументРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<CheckBoxField name="ПродажаМатериаловЗаказчику" id="45">
+					<DataPath>ПродажаМатериаловЗаказчику</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продажа</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПродажаМатериаловЗаказчикуКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ПродажаМатериаловЗаказчикуРасширеннаяПодсказка" id="47"/>
+					<Events>
+						<Event name="OnChange">ПродажаМатериаловЗаказчикуПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Дизайн" id="51">
+					<DataPath>Дизайн</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДизайнКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="ДизайнРасширеннаяПодсказка" id="53"/>
+					<Events>
+						<Event name="OnChange">ДизайнПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Печать" id="6">
+					<DataPath>Печать</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПечатьКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="8"/>
+					<Events>
+						<Event name="OnChange">ПечатьПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Изготовление" id="9">
+					<DataPath>Изготовление</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИзготовлениеКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ИзготовлениеРасширеннаяПодсказка" id="11"/>
+					<Events>
+						<Event name="OnChange">ИзготовлениеПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Монтаж" id="12">
+					<DataPath>Монтаж</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="МонтажКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="МонтажРасширеннаяПодсказка" id="14"/>
+					<Events>
+						<Event name="OnChange">МонтажПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Накатка" id="48">
+					<DataPath>Накатка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НакаткаКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="НакаткаРасширеннаяПодсказка" id="50"/>
+					<Events>
+						<Event name="OnChange">НакаткаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Доставка" id="15">
+					<DataPath>Доставка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоставкаКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ДоставкаРасширеннаяПодсказка" id="17"/>
+					<Events>
+						<Event name="OnChange">ДоставкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИзготовления" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изготовления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа изготовления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="ГруппаИзготовленияРасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<CheckBoxField name="Сборка" id="22">
+					<DataPath>Сборка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СборкаКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="СборкаРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">СборкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ПлотернаяРезка" id="25">
+					<DataPath>ПлотернаяРезка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПлотернаяРезкаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПлотернаяРезкаРасширеннаяПодсказка" id="27"/>
+					<Events>
+						<Event name="OnChange">ПлотернаяРезкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Ламинация" id="31">
+					<DataPath>Ламинация</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЛаминацияКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ЛаминацияРасширеннаяПодсказка" id="33"/>
+					<Events>
+						<Event name="OnChange">ЛаминацияПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Окраска" id="37">
+					<DataPath>Окраска</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОкраскаКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ОкраскаРасширеннаяПодсказка" id="39"/>
+					<Events>
+						<Event name="OnChange">ОкраскаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Резка" id="40">
+					<DataPath>Резка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РезкаКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="РезкаРасширеннаяПодсказка" id="42"/>
+					<Events>
+						<Event name="OnChange">РезкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПлотернаяРезка" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Плотерная резка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа плотерная резка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаПлотернаяРезкаРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<CheckBoxField name="Выборка" id="28">
+					<DataPath>Выборка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыборкаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ВыборкаРасширеннаяПодсказка" id="30"/>
+					<Events>
+						<Event name="OnChange">ВыборкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Монтажка" id="34">
+					<DataPath>Монтажка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="МонтажкаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="МонтажкаРасширеннаяПодсказка" id="36"/>
+					<Events>
+						<Event name="OnChange">МонтажкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МастерПоСозданиюКартыЗаказа</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПродажаМатериаловЗаказчику" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продажа материалов заказчику</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПродажаМатериаловСотруднику" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продажа материалов сотруднику</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Печать" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Изготовление" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изготовление</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Монтаж" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Монтаж</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Доставка" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доставка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Сборка" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сборка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПлотернаяРезка" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Плотерная резка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Выборка" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выборка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Ламинация" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ламинация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Монтажка" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Монтажка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Окраска" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Окраска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Резка" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Накатка" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Накатка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Дизайн" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дизайн</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьДокумент" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьДокумент</Action>
+		</Command>
+	</Commands>
+</Form>

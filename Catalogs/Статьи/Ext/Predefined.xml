@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="5d7d6b8e-de1d-4559-a6ed-5da1506feaf0">
+		<Name>Больничный</Name>
+		<Code>000000002</Code>
+		<Description>Больничный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="00df3ca7-fd24-4e86-9c39-3225e24704e2">
+		<Name>ДЗП</Name>
+		<Code>000000005</Code>
+		<Description>ДЗП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="30f45102-45b7-4f35-ab3b-f74edc8d607a">
+		<Name>Компенсация</Name>
+		<Code>000000004</Code>
+		<Description>Компенсация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8cf06fe-58b1-4fe8-9fe5-c2799a8c2650">
+		<Name>Оклад</Name>
+		<Code>000000001</Code>
+		<Description>Оклад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1b6c744-caf2-429f-9e31-2c321b02a815">
+		<Name>Отпуск</Name>
+		<Code>000000003</Code>
+		<Description>Отпуск</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66d57f6b-af26-4c3c-b223-3bda7cb5f842">
+		<Name>Премия</Name>
+		<Code>000000006</Code>
+		<Description>Премия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

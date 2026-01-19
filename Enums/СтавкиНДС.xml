@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0062a18a-a838-4dca-91bb-c79b074d0d93">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтавкиНДС" category="Ref">
+				<xr:TypeId>8688e236-0d9d-4290-9348-21a719ca1779</xr:TypeId>
+				<xr:ValueId>bbab7a51-c382-49cd-b30e-d924ec4a2d68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтавкиНДС" category="Manager">
+				<xr:TypeId>a3a83a1c-9db3-483b-8b2c-596ff8ce4c67</xr:TypeId>
+				<xr:ValueId>6079ecf1-6166-4850-b807-6b77475a00ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтавкиНДС" category="List">
+				<xr:TypeId>09711bdc-25c2-4284-94e2-7bd65a1c8688</xr:TypeId>
+				<xr:ValueId>bcacbbbd-94a9-4ec9-8271-c74e317c7bb8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтавкиНДС</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ставки НДС</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>(Общ)</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e0b0a650-4aaf-439a-9670-c4825003b98e">
+				<Properties>
+					<Name>НДС18</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>18%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Ставка НДС 18%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0baeb11b-8950-4d5a-b2da-cf8ba2655c3c">
+				<Properties>
+					<Name>НДС18_118</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>18% / 118%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Расчетная ставка НДС 18% / 118%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e2b2757c-d192-4a97-bd8b-3179ce6e9949">
+				<Properties>
+					<Name>НДС10</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>10%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Ставка НДС 10%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bf4517bf-1537-4a84-b8cc-b7aea1003dab">
+				<Properties>
+					<Name>НДС10_110</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>10% / 110%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Расчетная ставка НДС 10% / 110%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8ffa05c7-60f8-4274-8f6a-6b594441c8a2">
+				<Properties>
+					<Name>НДС0</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>0%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Ставка НДС 0%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bbd5c4ae-6d72-4297-83c8-1afecaf408ba">
+				<Properties>
+					<Name>БезНДС</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Без НДС</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="89114fe8-fa9f-4d20-8a6b-6ef14af8b1a1">
+				<Properties>
+					<Name>НДС20</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>20%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Ставка НДС 20%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="81da9589-d457-4f66-b77f-058254efabe3">
+				<Properties>
+					<Name>НДС20_120</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>20% / 120%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Расчетная ставка НДС 20% / 120%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="04a506c1-c3e1-4a3c-b7b2-1515f7de4bc8">
+				<Properties>
+					<Name>НДС5</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>5%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0eb28b28-63f0-4d4f-907c-12e53b179cda">
+				<Properties>
+					<Name>НДС5_105</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>5% /  105%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1da780b7-b085-43e8-a22b-0c2764467e60">
+				<Properties>
+					<Name>НДС7</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>7%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="de990760-8fcc-458c-bac3-42d336bef482">
+				<Properties>
+					<Name>НДС7_107</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>7% / 107%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ade8f3c7-2231-486a-b6ee-ff082acad403">
+				<Properties>
+					<Name>НДС22</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>22%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ) Ставка НДС 22%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="30328dcc-e05d-46ef-8ac9-b0a9b8fec7c3">
+				<Properties>
+					<Name>НДС22_122</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>22% / 122%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

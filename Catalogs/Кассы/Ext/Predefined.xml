@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="229ef980-6a4d-4733-8810-24c898f12e3e">
+		<Name>КассаИпКузнецов</Name>
+		<Code>000000004</Code>
+		<Description>Касса</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b29f1ff4-b30a-4dc1-8bd1-d740ee92eced">
+		<Name>КассаВзачет</Name>
+		<Code>000000003</Code>
+		<Description>Касса взачет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="47910fba-7640-46a8-af3e-e1d2e73229d5">
+		<Name>КассаОфис</Name>
+		<Code>000000001</Code>
+		<Description>Касса офис</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c50111da-4bda-47c5-8669-925b82503ff3">
+		<Name>КассаЦех</Name>
+		<Code>000000002</Code>
+		<Description>Касса цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

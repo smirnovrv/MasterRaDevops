@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="34044aea-3c01-43b9-8d84-32b588ed4fcf">
+		<Name>Дизайнер</Name>
+		<Code>000000001</Code>
+		<Description>Дизайнер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f71a3aa6-c90f-455d-adfc-18367b4463a9">
+		<Name>Монтажник</Name>
+		<Code>000000002</Code>
+		<Description>Монтажник</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a5488196-47bd-4485-be0c-56763f465092">
+		<Name>ОператорПечатногоОборудования</Name>
+		<Code>000000003</Code>
+		<Description>Оператор печатного оборудования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b39b2dd0-fbcf-44c8-a2cf-552fa85587e1">
+		<Name>ТехникПостпечатнойОбработки</Name>
+		<Code>000000004</Code>
+		<Description>Техник постпечатной обработки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
