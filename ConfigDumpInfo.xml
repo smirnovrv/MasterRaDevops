@@ -319,7 +319,7 @@
 		<Metadata name="CommonPicture.Финансы.Picture" id="6e167930-7789-42b6-a008-be0ca7a1fea6.0" configVersion="8aa8a92bb60ba1489079830e0ac4a66300000000"/>
 		<Metadata name="CommonTemplate.ОписаниеВерсииПрограммы" id="989cdd16-dda9-4028-b15a-37c33e01f9f7" configVersion="f62467b822ea474392ed6ea10742ba2300000000"/>
 		<Metadata name="CommonTemplate.ОписаниеВерсииПрограммы.Template" id="989cdd16-dda9-4028-b15a-37c33e01f9f7.0" configVersion="e8a5a6372ac8da4e8095cd8eee9ae4cd00000000"/>
-		<Metadata name="Configuration.ШирокоформатнаяПечать" id="7be560d7-2aa6-4493-8422-80152f724c1c" configVersion="97ece3b25aa8c9478011b2942e7864af00000000"/>
+		<Metadata name="Configuration.ШирокоформатнаяПечать" id="7be560d7-2aa6-4493-8422-80152f724c1c" configVersion="c31ce7fde2566941870ded09b3d29cfb00000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.ClientApplicationInterface" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.b" configVersion="ab2ab9ca1e117840875937413a9ace6900000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.CommandInterface" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.a" configVersion="446471be2703b84ea5833c659b92a6f600000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.Help" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.3" configVersion="a6926f9768e53340ae6fb34af454a67800000000"/>
@@ -996,8 +996,8 @@
 		</Metadata>
 		<Metadata name="Document.Счет.Command.ПечатьСпецификации.CommandModule" id="2a39b2bb-9f15-43ce-bab8-94611bb45136.2" configVersion="dadafa8b7425574999d15f58a9bd6d6d00000000"/>
 		<Metadata name="Document.Счет.Command.ПечатьСчета.CommandModule" id="075708fb-1166-49fc-b15c-ea8f346e50ec.2" configVersion="32f8004741013f48b39a4c2f1893383100000000"/>
-		<Metadata name="Document.Счет.Form.ФормаДокумента" id="c579ff47-267a-498f-a25a-ad2a5b0987e9" configVersion="71694e2709554349a05b96432df8149900000000"/>
-		<Metadata name="Document.Счет.Form.ФормаДокумента.Form" id="c579ff47-267a-498f-a25a-ad2a5b0987e9.0" configVersion="7837a8c28eb06e42a568164246c14a6000000000"/>
+		<Metadata name="Document.Счет.Form.ФормаДокумента" id="c579ff47-267a-498f-a25a-ad2a5b0987e9" configVersion="597778e43243de47800db501d1804e0c00000000"/>
+		<Metadata name="Document.Счет.Form.ФормаДокумента.Form" id="c579ff47-267a-498f-a25a-ad2a5b0987e9.0" configVersion="bbd90f3870e0c849ae31e1298a6b5d5500000000"/>
 		<Metadata name="Document.Счет.Form.ФормаСписка" id="5586368d-e9b6-46c1-8850-db1a524d3d52" configVersion="1f0f9362b7ad1241a12f9f131fa7921400000000"/>
 		<Metadata name="Document.Счет.Form.ФормаСписка.Form" id="5586368d-e9b6-46c1-8850-db1a524d3d52.0" configVersion="f2dfd0fb26baca49af96fb8782c7989e00000000"/>
 		<Metadata name="Document.Счет.ManagerModule" id="7885519c-3fbc-4ac4-a64e-b15b469c1527.2" configVersion="3657f1b7d19fe047986675f38ebc9a6700000000"/>
