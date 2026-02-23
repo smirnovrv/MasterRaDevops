@@ -169,6 +169,12 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<LabelField name="СчетФактура" id="121">
+			<DataPath>Объект.СчетФактура</DataPath>
+			<Hiperlink>true</Hiperlink>
+			<ContextMenu name="СчетФактураКонтекстноеМеню" id="122"/>
+			<ExtendedTooltip name="СчетФактураРасширеннаяПодсказка" id="123"/>
+		</LabelField>
 		<Table name="Товары" id="40">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>

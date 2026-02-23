@@ -319,7 +319,7 @@
 		<Metadata name="CommonPicture.Финансы.Picture" id="6e167930-7789-42b6-a008-be0ca7a1fea6.0" configVersion="dce14fb1fc66ca4fa3a45a73fad1c48100000000"/>
 		<Metadata name="CommonTemplate.ОписаниеВерсииПрограммы" id="989cdd16-dda9-4028-b15a-37c33e01f9f7" configVersion="67b325f57d91024cb11a8d51a8cbd2c400000000"/>
 		<Metadata name="CommonTemplate.ОписаниеВерсииПрограммы.Template" id="989cdd16-dda9-4028-b15a-37c33e01f9f7.0" configVersion="15e0276de2acf24e99b53d6a56f8860c00000000"/>
-		<Metadata name="Configuration.ШирокоформатнаяПечать" id="7be560d7-2aa6-4493-8422-80152f724c1c" configVersion="cace26f5095b5f4cb1b594d4233e10f200000000"/>
+		<Metadata name="Configuration.ШирокоформатнаяПечать" id="7be560d7-2aa6-4493-8422-80152f724c1c" configVersion="0fe76122929a2241be9f27485b1c1f3300000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.ClientApplicationInterface" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.b" configVersion="92ca75cab2af5949b39d4ec38cea86e300000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.CommandInterface" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.a" configVersion="ada2dbc3001c7d41b7a2ca1a775e3fa100000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.Help" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.3" configVersion="10bb75c2442c064a80e11765177d9cfd00000000"/>
@@ -614,8 +614,8 @@
 		<Metadata name="Document.Акт.Command.ПечатьКС3.CommandModule" id="3f8b4197-b376-43cd-bc78-7471fea670d1.2" configVersion="dd341560ef95144a9108e5ab396933c600000000"/>
 		<Metadata name="Document.Акт.Command.ПечатьТОРГ12.CommandModule" id="e9f0509c-f666-462e-9699-12a394a7ff4e.2" configVersion="fd0b0d9293bb03479a10c836a3b51dc000000000"/>
 		<Metadata name="Document.Акт.Command.ПечатьУПД.CommandModule" id="25d2b043-b115-4535-89d8-782684ee62b0.2" configVersion="d2fdca59a2310d4090b9d21793e7a97f00000000"/>
-		<Metadata name="Document.Акт.Form.ФормаДокумента" id="8a01772d-ecdb-49ef-a506-4d5e9ead88fb" configVersion="3aeed880dd620f42bb62b3bd96f5c4f800000000"/>
-		<Metadata name="Document.Акт.Form.ФормаДокумента.Form" id="8a01772d-ecdb-49ef-a506-4d5e9ead88fb.0" configVersion="e0e62e1e97ba71438c1bfda7287465e900000000"/>
+		<Metadata name="Document.Акт.Form.ФормаДокумента" id="8a01772d-ecdb-49ef-a506-4d5e9ead88fb" configVersion="d0f052ff4faafc46a36cc3ff21ab8b9400000000"/>
+		<Metadata name="Document.Акт.Form.ФормаДокумента.Form" id="8a01772d-ecdb-49ef-a506-4d5e9ead88fb.0" configVersion="caec6be9566c1c45b82f3a0149a82d0d00000000"/>
 		<Metadata name="Document.Акт.Form.ФормаСписка" id="f6cd0884-409b-4975-9c09-c3f222d19200" configVersion="5b9c5fa153543944abd9115888531df100000000"/>
 		<Metadata name="Document.Акт.Form.ФормаСписка.Form" id="f6cd0884-409b-4975-9c09-c3f222d19200.0" configVersion="5ec130ac1761934d84cf450c39c0dcf900000000"/>
 		<Metadata name="Document.Акт.ManagerModule" id="85b49f70-c180-4cd9-b0d1-49f8c57ab88c.2" configVersion="c34fc7b8fdb7554eba65c3fecdbbd3e900000000"/>
