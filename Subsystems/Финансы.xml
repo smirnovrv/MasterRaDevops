@@ -24,9 +24,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НоменклатураБухгалтерии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.КассовыйОтчетПолный</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Остатки_ДС_2021</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.Остатки_ДС_2021_ПоОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Остатки_ДС_2026</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

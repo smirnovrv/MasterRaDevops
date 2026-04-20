@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ИП Смирнов Роман Викторович</Vendor>
-			<Version>2.27.1</Version>
+			<Version>2.28.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -384,6 +384,7 @@
 			<Report>ОтчетО_Заказах_Полный</Report>
 			<Report>ОтчетО_Заказах_ПоОрганизации</Report>
 			<Report>СверкаСКлиентом</Report>
+			<Report>Остатки_ДС_2026</Report>
 			<DataProcessor>ВыгрузкаВБухгалтерию_30</DataProcessor>
 			<DataProcessor>ВыгрузкаМетаданных</DataProcessor>
 			<DataProcessor>ГрупповоеВыставлениеСчетов</DataProcessor>
