@@ -121,6 +121,7 @@
 					<v8:content>Группа3</v8:content>
 				</v8:item>
 			</Title>
+			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="189"/>
@@ -140,6 +141,20 @@
 							<CommandName>Form.Command.КомандаЗаполнить</CommandName>
 							<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="191"/>
 						</Button>
+						<InputField name="ПоступлениеМатериалов" id="194">
+							<DataPath>Объект.ПоступлениеМатериалов</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПоступлениеМатериаловКонтекстноеМеню" id="195"/>
+							<ExtendedTooltip name="ПоступлениеМатериаловРасширеннаяПодсказка" id="196"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа8" id="192">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="193"/>
+					<ChildItems>
 						<InputField name="ТарифЦеха1" id="182">
 							<DataPath>Объект.ТарифЦеха1</DataPath>
 							<ContextMenu name="ТарифЦеха1КонтекстноеМеню" id="183"/>

@@ -430,13 +430,19 @@
 									<ContextMenu name="МатериалОсновыКонтекстноеМеню" id="495"/>
 									<ExtendedTooltip name="МатериалОсновыРасширеннаяПодсказка" id="496"/>
 								</InputField>
-								<InputField name="ПричинаПеределки" id="491">
-									<DataPath>Объект.ПричинаПеределки</DataPath>
-									<ContextMenu name="ПричинаПеределкиКонтекстноеМеню" id="492"/>
-									<ExtendedTooltip name="ПричинаПеределкиРасширеннаяПодсказка" id="493"/>
+								<InputField name="ПоступлениеМатериалов" id="573">
+									<DataPath>Объект.ПоступлениеМатериалов</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПоступлениеМатериаловКонтекстноеМеню" id="574"/>
+									<ExtendedTooltip name="ПоступлениеМатериаловРасширеннаяПодсказка" id="575"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<InputField name="ПричинаПеределки" id="491">
+							<DataPath>Объект.ПричинаПеределки</DataPath>
+							<ContextMenu name="ПричинаПеределкиКонтекстноеМеню" id="492"/>
+							<ExtendedTooltip name="ПричинаПеределкиРасширеннаяПодсказка" id="493"/>
+						</InputField>
 						<UsualGroup name="Группа8" id="82">
 							<Group>AlwaysHorizontal</Group>
 							<ShowTitle>false</ShowTitle>

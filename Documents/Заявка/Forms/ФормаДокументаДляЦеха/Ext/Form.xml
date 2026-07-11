@@ -94,13 +94,26 @@
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
+								<UsualGroup name="Группа1" id="482">
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="483"/>
+									<ChildItems>
+										<InputField name="МатериалОсновы" id="473">
+											<DataPath>Объект.МатериалОсновы</DataPath>
+											<ContextMenu name="МатериалОсновыКонтекстноеМеню" id="474"/>
+											<ExtendedTooltip name="МатериалОсновыРасширеннаяПодсказка" id="475"/>
+										</InputField>
+										<InputField name="ПоступлениеМатериалов" id="484">
+											<DataPath>Объект.ПоступлениеМатериалов</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПоступлениеМатериаловКонтекстноеМеню" id="485"/>
+											<ExtendedTooltip name="ПоступлениеМатериаловРасширеннаяПодсказка" id="486"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="МатериалОсновы" id="473">
-							<DataPath>Объект.МатериалОсновы</DataPath>
-							<ContextMenu name="МатериалОсновыКонтекстноеМеню" id="474"/>
-							<ExtendedTooltip name="МатериалОсновыРасширеннаяПодсказка" id="475"/>
-						</InputField>
 						<UsualGroup name="ГруппаПлотернаяРезка" id="372">
 							<Title>
 								<v8:item>
