@@ -32,6 +32,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаВБухгалтерию_30</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗаданий2019</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УниверсальныйОбменДаннымиXML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнитьКодЗаказа</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

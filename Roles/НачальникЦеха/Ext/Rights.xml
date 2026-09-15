@@ -99,7 +99,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Акт.TabularSection.Товары.Attribute.КодЗаказа</name>
+		<name>Document.Акт.TabularSection.Товары.Attribute.КодЗаказаСтрока</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

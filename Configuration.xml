@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ИП Смирнов Роман Викторович</Vendor>
-			<Version>2.28.3</Version>
+			<Version>2.29.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -400,6 +400,7 @@
 			<DataProcessor>УниверсальныйОбменДаннымиXML1</DataProcessor>
 			<DataProcessor>УстановитьТарифВНаряде</DataProcessor>
 			<DataProcessor>Устарела_ЕдинаяЗагрузкаИзУУ</DataProcessor>
+			<DataProcessor>ЗаполнитьКодЗаказа</DataProcessor>
 			<InformationRegister>БрендыКонтрагентов</InformationRegister>
 			<InformationRegister>ДатаЗапретаРедактированияДанных</InformationRegister>
 			<InformationRegister>Заказы</InformationRegister>

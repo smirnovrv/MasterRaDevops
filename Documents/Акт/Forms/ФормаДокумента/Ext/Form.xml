@@ -222,11 +222,24 @@
 					<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="57"/>
 					<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="58"/>
 				</InputField>
-				<InputField name="ТоварыКодЗаказа" id="59">
+				<InputField name="ТоварыКодЗаказаСтрока" id="59">
+					<DataPath>Объект.Товары.КодЗаказаСтрока</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыКодЗаказаСтрокаКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ТоварыКодЗаказаСтрокаРасширеннаяПодсказка" id="61"/>
+					<Events>
+						<Event name="OnChange">ТоварыКодЗаказаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТоварыКодЗаказа" id="124">
 					<DataPath>Объект.Товары.КодЗаказа</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыКодЗаказаКонтекстноеМеню" id="60"/>
-					<ExtendedTooltip name="ТоварыКодЗаказаРасширеннаяПодсказка" id="61"/>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТоварыКодЗаказаКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="ТоварыКодЗаказаРасширеннаяПодсказка" id="126"/>
+					<Events>
+						<Event name="OnChange">ТоварыКодЗаказаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыКоличество" id="62">
 					<DataPath>Объект.Товары.Количество</DataPath>
