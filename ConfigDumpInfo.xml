@@ -319,7 +319,7 @@
 		<Metadata name="CommonPicture.Финансы.Picture" id="6e167930-7789-42b6-a008-be0ca7a1fea6.0" configVersion="8aa8a92bb60ba1489079830e0ac4a66300000000"/>
 		<Metadata name="CommonTemplate.ОписаниеВерсииПрограммы" id="989cdd16-dda9-4028-b15a-37c33e01f9f7" configVersion="f62467b822ea474392ed6ea10742ba2300000000"/>
 		<Metadata name="CommonTemplate.ОписаниеВерсииПрограммы.Template" id="989cdd16-dda9-4028-b15a-37c33e01f9f7.0" configVersion="e8a5a6372ac8da4e8095cd8eee9ae4cd00000000"/>
-		<Metadata name="Configuration.ШирокоформатнаяПечать" id="7be560d7-2aa6-4493-8422-80152f724c1c" configVersion="6cc7ddb9b5e4be4a9848fe5da2f93c4a00000000"/>
+		<Metadata name="Configuration.ШирокоформатнаяПечать" id="7be560d7-2aa6-4493-8422-80152f724c1c" configVersion="4184088d2d0ce64daefeab6c7729e59600000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.ClientApplicationInterface" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.b" configVersion="ab2ab9ca1e117840875937413a9ace6900000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.CommandInterface" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.a" configVersion="446471be2703b84ea5833c659b92a6f600000000"/>
 		<Metadata name="Configuration.ШирокоформатнаяПечать.Help" id="f80e4d96-65d9-40d0-8591-f1a6a61b4027.3" configVersion="a6926f9768e53340ae6fb34af454a67800000000"/>
@@ -1376,6 +1376,9 @@
 		<Metadata name="Report.ОстаткиПоРулонам" id="21b1b876-fefb-48ba-b839-9081a9a34332" configVersion="e04eb31e137e4849aafc1923c2351dfb00000000"/>
 		<Metadata name="Report.ОстаткиПоРулонам.Template.ОсновнаяСхемаКомпоновкиДанных" id="c004bf05-a7aa-4edd-a730-d5b2781268bd" configVersion="55df2171dcb4ab40b2a589c72652d4c600000000"/>
 		<Metadata name="Report.ОстаткиПоРулонам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c004bf05-a7aa-4edd-a730-d5b2781268bd.0" configVersion="63b64bd12711d94f898ffcb80e6a089c00000000"/>
+		<Metadata name="Report.Отчет_ОЗаказах_Полный_2026" id="64f3b0f8-b6eb-4cb8-8df9-84c44e21cb37" configVersion="bdc4557e64e70c4c9a0c5d4c8f3f17af00000000"/>
+		<Metadata name="Report.Отчет_ОЗаказах_Полный_2026.Template.ОсновнаяСхемаКомпоновкиДанных" id="2a7a7182-e67e-47bf-af3e-1a25612df020" configVersion="68bd8679f008754490864ac0b48fba6c00000000"/>
+		<Metadata name="Report.Отчет_ОЗаказах_Полный_2026.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="2a7a7182-e67e-47bf-af3e-1a25612df020.0" configVersion="03bc0f5276d80b479b0250804609f19300000000"/>
 		<Metadata name="Report.ОтчетНачПроизводства" id="2f8f3592-948e-41c3-96dd-71f4ebb6c6ec" configVersion="fb194707b0801c4a84b8a49ff89d7e5a00000000"/>
 		<Metadata name="Report.ОтчетНачПроизводства.Template.ОсновнаяСхемаКомпоновкиДанных" id="5c1f7a6f-22a5-4d40-807a-5e9437580021" configVersion="6eec8006563c7940a632aa2170ca61f900000000"/>
 		<Metadata name="Report.ОтчетНачПроизводства.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="5c1f7a6f-22a5-4d40-807a-5e9437580021.0" configVersion="3ae1561d31d22b45bc75471809dd93d900000000"/>
@@ -1421,7 +1424,7 @@
 		<Metadata name="Subsystem.Задания" id="6975e789-3d23-4d86-8c9c-ac157129e9fe" configVersion="e07eca0ab3aead48894265588be47a6200000000"/>
 		<Metadata name="Subsystem.Задания.CommandInterface" id="6975e789-3d23-4d86-8c9c-ac157129e9fe.1" configVersion="fb3f5d0732690e4d9a759c48135d0c6300000000"/>
 		<Metadata name="Subsystem.НСИ" id="1f2aba3e-5864-45c8-9251-5ac3c8686e26" configVersion="7bfd31a4c37e4d488324f9b1583f34df00000000"/>
-		<Metadata name="Subsystem.Продажи" id="43594595-8182-4b42-b4c6-948e449d7c5a" configVersion="46734cfbaaa0f94c8b5903ded4a3a09700000000"/>
+		<Metadata name="Subsystem.Продажи" id="43594595-8182-4b42-b4c6-948e449d7c5a" configVersion="b72fcc5cdf6e3740a8ede87a3a7821e700000000"/>
 		<Metadata name="Subsystem.Продажи.CommandInterface" id="43594595-8182-4b42-b4c6-948e449d7c5a.1" configVersion="c6bef7e77f96a4468e735a5f3bb630ee00000000"/>
 		<Metadata name="Subsystem.Производство" id="65eb811c-c2b9-4a36-b399-11a7954fa235" configVersion="cf5af316736d5741a974aab6bb5147d300000000"/>
 		<Metadata name="Subsystem.Производство.CommandInterface" id="65eb811c-c2b9-4a36-b399-11a7954fa235.1" configVersion="78c69cf69bb2a64a8aa4592935a79a7700000000"/>

@@ -29,10 +29,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикРазвозов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.АктСверкиС_ЗаказчикомПоАктам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СверкаСКлиентом</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетО_Заказах_Полный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Доверенность</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиПоРулонам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетО_Заказах_ПоОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Отчет_ОЗаказах_Полный_2026</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетО_Заказах_Полный</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
