@@ -118,6 +118,30 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="48a485dc-3b28-4590-a07d-4d75caebc9e7">
+				<Properties>
+					<Name>Фрезеровщик</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фрезеровщик</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="496c94aa-7298-4c0a-a283-c6d168af1231">
+				<Properties>
+					<Name>Лазерщик</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лазерщик</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

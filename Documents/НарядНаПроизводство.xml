@@ -1808,6 +1808,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>РасчетТарифа</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

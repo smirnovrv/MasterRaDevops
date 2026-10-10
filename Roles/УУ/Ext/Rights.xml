@@ -547,24 +547,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ФормаСправки_Общая</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ПоказатьСправкуHTML</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Производство</name>
 		<right>
 			<name>View</name>

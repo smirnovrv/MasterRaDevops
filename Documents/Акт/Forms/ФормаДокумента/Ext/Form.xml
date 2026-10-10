@@ -222,21 +222,20 @@
 					<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="57"/>
 					<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="58"/>
 				</InputField>
-				<InputField name="ТоварыКодЗаказаСтрока" id="59">
+				<InputField name="ТоварыКодЗаказаСтрока" id="124">
 					<DataPath>Объект.Товары.КодЗаказаСтрока</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыКодЗаказаСтрокаКонтекстноеМеню" id="60"/>
-					<ExtendedTooltip name="ТоварыКодЗаказаСтрокаРасширеннаяПодсказка" id="61"/>
-					<Events>
-						<Event name="OnChange">ТоварыКодЗаказаПриИзменении</Event>
-					</Events>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТоварыКодЗаказаСтрокаКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="ТоварыКодЗаказаСтрокаРасширеннаяПодсказка" id="126"/>
 				</InputField>
-				<InputField name="ТоварыКодЗаказа" id="124">
+				<InputField name="ТоварыКодЗаказа" id="127">
 					<DataPath>Объект.Товары.КодЗаказа</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыКодЗаказаКонтекстноеМеню" id="125"/>
-					<ExtendedTooltip name="ТоварыКодЗаказаРасширеннаяПодсказка" id="126"/>
+					<ContextMenu name="ТоварыКодЗаказаКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="ТоварыКодЗаказаРасширеннаяПодсказка" id="129"/>
 					<Events>
 						<Event name="OnChange">ТоварыКодЗаказаПриИзменении</Event>
 					</Events>
