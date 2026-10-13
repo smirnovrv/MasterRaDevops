@@ -105,7 +105,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Связанный заказ</v8:content>
+											<v8:content>Связанная заявка</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -1216,7 +1216,9 @@
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.СвязанныеДокументы</DataPath>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="СвязанныеДокументыКонтекстноеМеню" id="514"/>
+							<ContextMenu name="СвязанныеДокументыКонтекстноеМеню" id="514">
+								<Autofill>false</Autofill>
+							</ContextMenu>
 							<AutoCommandBar name="СвязанныеДокументыКоманднаяПанель" id="515">
 								<Autofill>false</Autofill>
 							</AutoCommandBar>
