@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -104,12 +106,12 @@
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
+			<Representation>WeakSeparation</Representation>
 			<ExtendedTooltip name="НастройкиExtendedTooltip" id="41"/>
 			<ChildItems>
 				<CheckBoxField name="НеВыгружатьРегистрыСведений" id="8">
 					<DataPath>ВыгружатьРегистрыСведений</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="НеВыгружатьРегистрыСведенийКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="НеВыгружатьРегистрыСведенийExtendedTooltip" id="42"/>
 					<Events>
@@ -119,7 +121,6 @@
 				<CheckBoxField name="НеВыгружатьРегистрыНакопления" id="10">
 					<DataPath>ВыгружатьРегистрыНакопления</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="НеВыгружатьРегистрыНакопленияКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="НеВыгружатьРегистрыНакопленияExtendedTooltip" id="43"/>
 					<Events>
@@ -129,7 +130,6 @@
 				<CheckBoxField name="НеВыгружатьРегистрыБухгалтерии" id="12">
 					<DataPath>ВыгружатьРегистрыБухгалтерии</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="НеВыгружатьРегистрыБухгалтерииКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="НеВыгружатьРегистрыБухгалтерииExtendedTooltip" id="44"/>
 					<Events>
@@ -139,7 +139,6 @@
 				<CheckBoxField name="НеВыгружатьРегистрыРасчета" id="14">
 					<DataPath>ВыгружатьРегистрыРасчета</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="НеВыгружатьРегистрыРасчетаКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="НеВыгружатьРегистрыРасчетаExtendedTooltip" id="45"/>
 					<Events>
@@ -149,7 +148,6 @@
 				<CheckBoxField name="ВыгружатьДвиженияДокументов" id="32">
 					<DataPath>ВыгружатьДвиженияДокументов</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВыгружатьДвиженияДокументовКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ВыгружатьДвиженияДокументовExtendedTooltip" id="46"/>
 					<Events>
@@ -236,6 +234,7 @@
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
 					<CommandName>Form.Command.Выгрузить</CommandName>
+					<ButtonImportance>Main</ButtonImportance>
 					<ExtendedTooltip name="ВыгрузитьExtendedTooltip" id="51"/>
 				</Button>
 				<ButtonGroup name="СправкаЗакрыть" id="26">

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -38,25 +39,33 @@
 							<v8:content>Общие</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ОбщиеРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
 						<UsualGroup name="Группа2" id="14">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="15"/>
 							<ChildItems>
 								<UsualGroup name="Группа7" id="223">
+									<Group>HorizontalIfPossible</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="224"/>
 									<ChildItems>
 										<InputField name="Код" id="1">
 											<DataPath>Объект.Code</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 											<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 										</InputField>
 										<InputField name="Наименование" id="4">
 											<DataPath>Объект.Description</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 											<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 										</InputField>
@@ -73,6 +82,8 @@
 									<ExtendedTooltip name="БрендРасширеннаяПодсказка" id="222"/>
 								</InputField>
 								<UsualGroup name="Группа8" id="225">
+									<Group>HorizontalIfPossible</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="226"/>
 									<ChildItems>
@@ -84,7 +95,6 @@
 										</InputField>
 										<CheckBoxField name="БезДоговора" id="227">
 											<DataPath>Объект.БезДоговора</DataPath>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="БезДоговораКонтекстноеМеню" id="228"/>
 											<ExtendedTooltip name="БезДоговораРасширеннаяПодсказка" id="229"/>
 											<Events>
@@ -96,6 +106,8 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа3" id="16">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="17"/>
 							<ChildItems>
@@ -112,6 +124,8 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа4" id="24">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="25"/>
 							<ChildItems>
@@ -133,6 +147,8 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа5" id="38">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="39"/>
 							<ChildItems>
@@ -168,6 +184,8 @@
 							<v8:content>Контакты</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="КонтактыРасширеннаяПодсказка" id="44"/>
 					<ChildItems>
 						<InputField name="ЮридическийАдрес" id="45">
@@ -181,6 +199,8 @@
 							<ExtendedTooltip name="ФактическийАдресРасширеннаяПодсказка" id="50"/>
 						</InputField>
 						<Table name="КонтактныеЛица" id="51">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -217,30 +237,35 @@
 								<LabelField name="КонтактныеЛицаНомерСтроки" id="64">
 									<DataPath>Объект.КонтактныеЛица.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КонтактныеЛицаНомерСтрокиКонтекстноеМеню" id="65"/>
 									<ExtendedTooltip name="КонтактныеЛицаНомерСтрокиРасширеннаяПодсказка" id="66"/>
 								</LabelField>
 								<InputField name="КонтактныеЛицаФИО" id="67">
 									<DataPath>Объект.КонтактныеЛица.ФИО</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КонтактныеЛицаФИОКонтекстноеМеню" id="68"/>
 									<ExtendedTooltip name="КонтактныеЛицаФИОРасширеннаяПодсказка" id="69"/>
 								</InputField>
 								<InputField name="КонтактныеЛицаДолжность" id="70">
 									<DataPath>Объект.КонтактныеЛица.Должность</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КонтактныеЛицаДолжностьКонтекстноеМеню" id="71"/>
 									<ExtendedTooltip name="КонтактныеЛицаДолжностьРасширеннаяПодсказка" id="72"/>
 								</InputField>
 								<InputField name="КонтактныеЛицаТелефон" id="73">
 									<DataPath>Объект.КонтактныеЛица.Телефон</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КонтактныеЛицаТелефонКонтекстноеМеню" id="74"/>
 									<ExtendedTooltip name="КонтактныеЛицаТелефонРасширеннаяПодсказка" id="75"/>
 								</InputField>
 								<InputField name="КонтактныеЛицаEmail" id="217">
 									<DataPath>Объект.КонтактныеЛица.Email</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КонтактныеЛицаEmailКонтекстноеМеню" id="218"/>
 									<ExtendedTooltip name="КонтактныеЛицаEmailРасширеннаяПодсказка" id="219"/>
 								</InputField>
@@ -261,9 +286,13 @@
 							<v8:content>Стр доставка</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="стрДоставкаРасширеннаяПодсказка" id="197"/>
 					<ChildItems>
 						<Table name="Доставка" id="198">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -300,12 +329,14 @@
 								<LabelField name="ДоставкаНомерСтроки" id="211">
 									<DataPath>Объект.Доставка.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоставкаНомерСтрокиКонтекстноеМеню" id="212"/>
 									<ExtendedTooltip name="ДоставкаНомерСтрокиРасширеннаяПодсказка" id="213"/>
 								</LabelField>
 								<InputField name="ДоставкаАдрес" id="214">
 									<DataPath>Объект.Доставка.Адрес</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоставкаАдресКонтекстноеМеню" id="215"/>
 									<ExtendedTooltip name="ДоставкаАдресРасширеннаяПодсказка" id="216"/>
 								</InputField>
@@ -326,9 +357,13 @@
 							<v8:content>Реквизиты</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="77"/>
 					<ChildItems>
 						<UsualGroup name="Группа1" id="81">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="82"/>
 							<ChildItems>
@@ -355,6 +390,8 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа6" id="92">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="93"/>
 							<ChildItems>
@@ -371,6 +408,8 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа9" id="252">
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="253"/>
 							<ChildItems>
@@ -401,9 +440,13 @@
 							<v8:content>Брендов</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="БрендовРасширеннаяПодсказка" id="104"/>
 					<ChildItems>
 						<Table name="Бренды" id="230">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -440,12 +483,14 @@
 								<LabelField name="БрендыНомерСтроки" id="243">
 									<DataPath>Объект.Бренды.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БрендыНомерСтрокиКонтекстноеМеню" id="244"/>
 									<ExtendedTooltip name="БрендыНомерСтрокиРасширеннаяПодсказка" id="245"/>
 								</LabelField>
 								<InputField name="БрендыБренд" id="246">
 									<DataPath>Объект.Бренды.Бренд</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БрендыБрендКонтекстноеМеню" id="247"/>
 									<ExtendedTooltip name="БрендыБрендРасширеннаяПодсказка" id="248"/>
 								</InputField>
@@ -466,9 +511,13 @@
 							<v8:content>Договоров</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ДоговоровРасширеннаяПодсказка" id="125"/>
 					<ChildItems>
 						<Table name="Договоры" id="126">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -503,42 +552,49 @@
 							<ChildItems>
 								<LabelField name="ДоговорыНомерСтроки" id="139">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыНомерСтрокиКонтекстноеМеню" id="140"/>
 									<ExtendedTooltip name="ДоговорыНомерСтрокиРасширеннаяПодсказка" id="141"/>
 								</LabelField>
 								<InputField name="ДоговорыНаименование" id="142">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыНаименованиеКонтекстноеМеню" id="143"/>
 									<ExtendedTooltip name="ДоговорыНаименованиеРасширеннаяПодсказка" id="144"/>
 								</InputField>
 								<InputField name="ДоговорыНомерДоговора" id="145">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыНомерДоговораКонтекстноеМеню" id="146"/>
 									<ExtendedTooltip name="ДоговорыНомерДоговораРасширеннаяПодсказка" id="147"/>
 								</InputField>
 								<InputField name="ДоговорыДатаДоговора" id="148">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыДатаДоговораКонтекстноеМеню" id="149"/>
 									<ExtendedTooltip name="ДоговорыДатаДоговораРасширеннаяПодсказка" id="150"/>
 								</InputField>
 								<InputField name="ДоговорыВидДоговора" id="151">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыВидДоговораКонтекстноеМеню" id="152"/>
 									<ExtendedTooltip name="ДоговорыВидДоговораРасширеннаяПодсказка" id="153"/>
 								</InputField>
 								<InputField name="ДоговорыСрокДействия" id="154">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыСрокДействияКонтекстноеМеню" id="155"/>
 									<ExtendedTooltip name="ДоговорыСрокДействияРасширеннаяПодсказка" id="156"/>
 								</InputField>
 								<CheckBoxField name="ДоговорыПролонгация" id="157">
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыПролонгацияКонтекстноеМеню" id="158"/>
 									<ExtendedTooltip name="ДоговорыПролонгацияРасширеннаяПодсказка" id="159"/>
 								</CheckBoxField>
 								<InputField name="ДоговорыВидОплаты" id="160">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоговорыВидОплатыКонтекстноеМеню" id="161"/>
 									<ExtendedTooltip name="ДоговорыВидОплатыРасширеннаяПодсказка" id="162"/>
 								</InputField>
@@ -559,26 +615,25 @@
 							<v8:content>Статусы</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтатусыРасширеннаяПодсказка" id="164"/>
 					<ChildItems>
 						<CheckBoxField name="СтатусЗаказчик" id="165">
 							<DataPath>Объект.СтатусЗаказчик</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СтатусЗаказчикКонтекстноеМеню" id="166"/>
 							<ExtendedTooltip name="СтатусЗаказчикРасширеннаяПодсказка" id="167"/>
 						</CheckBoxField>
 						<CheckBoxField name="СтатусПоставщик" id="168">
 							<DataPath>Объект.СтатусПоставщик</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СтатусПоставщикКонтекстноеМеню" id="169"/>
 							<ExtendedTooltip name="СтатусПоставщикРасширеннаяПодсказка" id="170"/>
 						</CheckBoxField>
 						<CheckBoxField name="СтатусПрочий" id="171">
 							<DataPath>Объект.СтатусПрочий</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СтатусПрочийКонтекстноеМеню" id="172"/>
 							<ExtendedTooltip name="СтатусПрочийРасширеннаяПодсказка" id="173"/>
 							<Events>
@@ -586,6 +641,8 @@
 							</Events>
 						</CheckBoxField>
 						<Table name="ТипыВыполняемыхРабот" id="174">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -622,12 +679,14 @@
 								<LabelField name="ТипыВыполняемыхРаботНомерСтроки" id="187">
 									<DataPath>Объект.ТипыВыполняемыхРабот.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТипыВыполняемыхРаботНомерСтрокиКонтекстноеМеню" id="188"/>
 									<ExtendedTooltip name="ТипыВыполняемыхРаботНомерСтрокиРасширеннаяПодсказка" id="189"/>
 								</LabelField>
 								<InputField name="ТипыВыполняемыхРаботРаботыСубподрядчика" id="190">
 									<DataPath>Объект.ТипыВыполняемыхРабот.РаботыСубподрядчика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТипыВыполняемыхРаботРаботыСубподрядчикаКонтекстноеМеню" id="191"/>
 									<ExtendedTooltip name="ТипыВыполняемыхРаботРаботыСубподрядчикаРасширеннаяПодсказка" id="192"/>
 								</InputField>

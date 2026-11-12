@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -9,6 +10,7 @@
 				<Representation>PictureAndText</Representation>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.StandardCommand.Write</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="27"/>
 			</Button>
 			<Button name="ФормаВыполнить" id="28">
@@ -36,6 +38,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа3" id="32">
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="33"/>
@@ -43,10 +46,13 @@
 				<InputField name="Статус" id="19">
 					<DataPath>Объект.Статус</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СтатусКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="21"/>
 				</InputField>
 				<UsualGroup name="Группа1" id="22">
+					<Group>HorizontalIfPossible</Group>
+					<Representation>WeakSeparation</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="23"/>
 					<ChildItems>
@@ -59,6 +65,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 						</InputField>
@@ -71,6 +78,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
 						</InputField>
@@ -79,11 +87,13 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа5" id="42">
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="43"/>
 		</UsualGroup>
 		<UsualGroup name="Группа6" id="47">
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="48"/>
@@ -96,12 +106,14 @@
 				<InputField name="СрокВыполнения" id="16">
 					<DataPath>Объект.СрокВыполнения</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СрокВыполненияКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="СрокВыполненияРасширеннаяПодсказка" id="18"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа4" id="37">
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="38"/>
@@ -109,6 +121,7 @@
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<BackColor>style:NavigationColor</BackColor>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
@@ -116,13 +129,13 @@
 				<CheckBoxField name="Выполнена" id="34">
 					<DataPath>Объект.Executed</DataPath>
 					<ReadOnly>true</ReadOnly>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВыполненаКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ВыполненаРасширеннаяПодсказка" id="36"/>
 				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа9" id="62">
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="63"/>
@@ -134,6 +147,7 @@
 							<v8:content>Комментарии</v8:content>
 						</v8:item>
 					</Title>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -141,9 +155,12 @@
 							<v8:content>Комм</v8:content>
 						</v8:item>
 					</CollapsedRepresentationTitle>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="92"/>
 					<ChildItems>
 						<Table name="КомментарииИФайлы" id="64">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -191,18 +208,21 @@
 								<LabelField name="КомментарииИФайлыНомерСтроки" id="77">
 									<DataPath>Объект.КомментарииИФайлы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КомментарииИФайлыНомерСтрокиКонтекстноеМеню" id="78"/>
 									<ExtendedTooltip name="КомментарииИФайлыНомерСтрокиРасширеннаяПодсказка" id="79"/>
 								</LabelField>
 								<InputField name="КомментарииИФайлыКомментарий" id="80">
 									<DataPath>Объект.КомментарииИФайлы.Комментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КомментарииИФайлыКомментарийКонтекстноеМеню" id="81"/>
 									<ExtendedTooltip name="КомментарииИФайлыКомментарийРасширеннаяПодсказка" id="82"/>
 								</InputField>
 								<InputField name="КомментарииИФайлыСсылкаНаФайл" id="83">
 									<DataPath>Объект.КомментарииИФайлы.СсылкаНаФайл</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КомментарииИФайлыСсылкаНаФайлКонтекстноеМеню" id="84"/>
 									<ExtendedTooltip name="КомментарииИФайлыСсылкаНаФайлРасширеннаяПодсказка" id="85"/>
 									<Events>
@@ -228,6 +248,7 @@
 		</UsualGroup>
 		<UsualGroup name="Группа7" id="55">
 			<Group>AlwaysHorizontal</Group>
+			<Representation>WeakSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="56"/>
 			<ChildItems>
@@ -238,11 +259,14 @@
 							<v8:content>Исполнитель</v8:content>
 						</v8:item>
 					</Title>
+					<Group>HorizontalIfPossible</Group>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="25"/>
 					<ChildItems>
 						<InputField name="Испольнитель" id="13">
 							<DataPath>Объект.Испольнитель</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИспольнительКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ИспольнительРасширеннаяПодсказка" id="15"/>
 						</InputField>
@@ -260,6 +284,7 @@
 							<v8:content>Проверяющий</v8:content>
 						</v8:item>
 					</Title>
+					<Group>HorizontalIfPossible</Group>
 					<Representation>None</Representation>
 					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="58"/>
 					<ChildItems>

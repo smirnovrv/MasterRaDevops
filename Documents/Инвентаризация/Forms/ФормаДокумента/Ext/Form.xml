@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
@@ -18,12 +20,14 @@
 				<InputField name="Номер" id="1">
 					<DataPath>Объект.Number</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="45"/>
 				</InputField>
 				<InputField name="Дата" id="3">
 					<DataPath>Объект.Date</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="46"/>
 				</InputField>
@@ -38,7 +42,7 @@
 				<CheckBoxField name="ВизаНП" id="5">
 					<DataPath>Объект.ВизаНП</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ВизаНПКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="ВизаНПРасширеннаяПодсказка" id="48"/>
 					<Events>
@@ -49,6 +53,7 @@
 					<DataPath>Объект.ДатаВизыНП</DataPath>
 					<Enabled>false</Enabled>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаВизыНПКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ДатаВизыНПРасширеннаяПодсказка" id="49"/>
 				</InputField>
@@ -63,7 +68,7 @@
 				<CheckBoxField name="ВизаУУ" id="9">
 					<DataPath>Объект.ВизаУУ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ВизаУУКонтекстноеМеню" id="10"/>
 					<ExtendedTooltip name="ВизаУУРасширеннаяПодсказка" id="51"/>
 					<Events>
@@ -74,6 +79,7 @@
 					<DataPath>Объект.ДатаВизыУУ</DataPath>
 					<Enabled>false</Enabled>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаВизыУУКонтекстноеМеню" id="12"/>
 					<ExtendedTooltip name="ДатаВизыУУРасширеннаяПодсказка" id="52"/>
 				</InputField>
@@ -81,6 +87,8 @@
 		</UsualGroup>
 		<Table name="Материалы" id="15">
 			<Representation>List</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -132,60 +140,70 @@
 				<LabelField name="МатериалыНомерСтроки" id="18">
 					<DataPath>Объект.Материалы.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="64"/>
 				</LabelField>
 				<InputField name="МатериалыМатериал" id="20">
 					<DataPath>Объект.Материалы.Материал</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="65"/>
 				</InputField>
 				<InputField name="МатериалыПоставщик" id="22">
 					<DataPath>Объект.Материалы.Поставщик</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыПоставщикКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="МатериалыПоставщикРасширеннаяПодсказка" id="66"/>
 				</InputField>
 				<InputField name="МатериалыМатериалОсновы" id="24">
 					<DataPath>Объект.Материалы.МатериалОсновы</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыМатериалОсновыКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="МатериалыМатериалОсновыРасширеннаяПодсказка" id="67"/>
 				</InputField>
 				<InputField name="МатериалыРулон" id="26">
 					<DataPath>Объект.Материалы.Рулон</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыРулонКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="МатериалыРулонРасширеннаяПодсказка" id="68"/>
 				</InputField>
 				<InputField name="МатериалыЦена" id="28">
 					<DataPath>Объект.Материалы.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыЦенаКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="МатериалыЦенаРасширеннаяПодсказка" id="69"/>
 				</InputField>
 				<InputField name="МатериалыОстатокПоДокументу" id="30">
 					<DataPath>Объект.Материалы.ОстатокПоДокументу</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыОстатокПоДокументуКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="МатериалыОстатокПоДокументуРасширеннаяПодсказка" id="70"/>
 				</InputField>
 				<InputField name="МатериалыОстатокФакт" id="32">
 					<DataPath>Объект.Материалы.ОстатокФакт</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыОстатокФактКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="МатериалыОстатокФактРасширеннаяПодсказка" id="71"/>
 				</InputField>
 				<InputField name="МатериалыРазница" id="34">
 					<DataPath>Объект.Материалы.Разница</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыРазницаКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="МатериалыРазницаРасширеннаяПодсказка" id="72"/>
 				</InputField>
 				<InputField name="МатериалыКомментарий" id="36">
 					<DataPath>Объект.Материалы.Комментарий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="МатериалыКомментарийКонтекстноеМеню" id="37"/>
 					<ExtendedTooltip name="МатериалыКомментарийРасширеннаяПодсказка" id="73"/>
 				</InputField>
@@ -194,11 +212,13 @@
 		<InputField name="Комментарий" id="13">
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="74"/>
 		</InputField>
 		<UsualGroup name="Группа4" id="41">
 			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
 			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="75"/>
 		</UsualGroup>
 		<UsualGroup name="Группа5" id="42">

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -13,6 +15,7 @@
 					<xr:Ref>StdPicture.DataCompositionFilter</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="ФормаОтобратьРасширеннаяПодсказка" id="28"/>
 			</Button>
 		</ChildItems>
@@ -46,6 +49,8 @@
 		<Table name="Заказы" id="3">
 			<CommandBarLocation>None</CommandBarLocation>
 			<MultipleChoice>true</MultipleChoice>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -89,12 +94,14 @@
 				<LabelField name="ЗаказыНомерСтроки" id="6">
 					<DataPath>Объект.Заказы.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыНомерСтрокиКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="ЗаказыНомерСтрокиРасширеннаяПодсказка" id="42"/>
 				</LabelField>
 				<InputField name="ЗаказыНомерЗаказа" id="8">
 					<DataPath>Объект.Заказы.Заказ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыНомерЗаказаКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="ЗаказыНомерЗаказаРасширеннаяПодсказка" id="43"/>
 				</InputField>
@@ -106,36 +113,42 @@
 				<InputField name="ЗаказыОрганизация" id="26">
 					<DataPath>Объект.Заказы.Организация</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыОрганизацияКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ЗаказыОрганизацияРасширеннаяПодсказка" id="44"/>
 				</InputField>
 				<InputField name="ЗаказыМенеджер" id="10">
 					<DataPath>Объект.Заказы.Менеджер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыМенеджерКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ЗаказыМенеджерРасширеннаяПодсказка" id="45"/>
 				</InputField>
 				<InputField name="ЗаказыПлательщик" id="12">
 					<DataPath>Объект.Заказы.Плательщик</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыПлательщикКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="ЗаказыПлательщикРасширеннаяПодсказка" id="46"/>
 				</InputField>
 				<InputField name="ЗаказыБренд" id="14">
 					<DataPath>Объект.Заказы.Бренд</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыБрендКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="ЗаказыБрендРасширеннаяПодсказка" id="47"/>
 				</InputField>
 				<InputField name="ЗаказыНазваниеЗаказа" id="16">
 					<DataPath>Объект.Заказы.НазваниеЗаказа</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыНазваниеЗаказаКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ЗаказыНазваниеЗаказаРасширеннаяПодсказка" id="48"/>
 				</InputField>
 				<InputField name="ЗаказыИтогоЗаВесьЗаказ" id="18">
 					<DataPath>Объект.Заказы.ИтогоЗаВесьЗаказ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЗаказыИтогоЗаВесьЗаказКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="ЗаказыИтогоЗаВесьЗаказРасширеннаяПодсказка" id="49"/>
 				</InputField>

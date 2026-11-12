@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
@@ -17,6 +19,7 @@
 					<v8:content>Группа5</v8:content>
 				</v8:item>
 			</Title>
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="43"/>
@@ -24,6 +27,7 @@
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 				</InputField>
@@ -36,7 +40,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="АвтонаименованиеКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="АвтонаименованиеРасширеннаяПодсказка" id="46"/>
 				</CheckBoxField>
@@ -49,6 +52,7 @@
 					<v8:content>Группа4</v8:content>
 				</v8:item>
 			</Title>
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="38"/>
@@ -56,6 +60,7 @@
 				<InputField name="Тариф" id="19">
 					<DataPath>Объект.Тариф</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТарифКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="ТарифРасширеннаяПодсказка" id="21"/>
 				</InputField>
@@ -69,18 +74,21 @@
 		<InputField name="ВидРаботы" id="22">
 			<DataPath>Объект.ВидРаботы</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ВидРаботыКонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="ВидРаботыРасширеннаяПодсказка" id="24"/>
 		</InputField>
 		<InputField name="ПечатнаяМашина" id="25">
 			<DataPath>Объект.ПечатнаяМашина</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ПечатнаяМашинаКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="ПечатнаяМашинаРасширеннаяПодсказка" id="27"/>
 		</InputField>
 		<InputField name="СпособРасчетаТарифа" id="28">
 			<DataPath>Объект.СпособРасчетаТарифа</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="СпособРасчетаТарифаКонтекстноеМеню" id="29"/>
 			<ExtendedTooltip name="СпособРасчетаТарифаРасширеннаяПодсказка" id="30"/>
 		</InputField>
@@ -103,6 +111,7 @@
 							<v8:content>Группа2</v8:content>
 						</v8:item>
 					</Title>
+					<Group>HorizontalIfPossible</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="34"/>
@@ -110,12 +119,14 @@
 						<InputField name="КолТехников" id="7">
 							<DataPath>Объект.КолТехников</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КолТехниковКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="КолТехниковРасширеннаяПодсказка" id="9"/>
 						</InputField>
 						<InputField name="ПроцентТехника" id="13">
 							<DataPath>Объект.ПроцентТехника</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПроцентТехникаКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ПроцентТехникаРасширеннаяПодсказка" id="15"/>
 						</InputField>
@@ -128,6 +139,7 @@
 							<v8:content>Группа3</v8:content>
 						</v8:item>
 					</Title>
+					<Group>HorizontalIfPossible</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="36"/>
@@ -135,12 +147,14 @@
 						<InputField name="КолПечатников" id="10">
 							<DataPath>Объект.КолПечатников</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КолПечатниковКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="КолПечатниковРасширеннаяПодсказка" id="12"/>
 						</InputField>
 						<InputField name="ПроцентПечатника" id="16">
 							<DataPath>Объект.ПроцентПечатника</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПроцентПечатникаКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ПроцентПечатникаРасширеннаяПодсказка" id="18"/>
 						</InputField>

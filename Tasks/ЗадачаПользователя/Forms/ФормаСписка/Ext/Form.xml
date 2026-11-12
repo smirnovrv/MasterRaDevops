@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Список задач</v8:content>
 		</v8:item>
 	</Title>
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -22,6 +24,11 @@
 				</Title>
 				<ExtendedTooltip name="ФормаСоздатьРасширеннаяПодсказка" id="190"/>
 			</Button>
+			<Button name="ФормаОткрытьФормуСписка2022" id="220">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОткрытьФормуСписка2022</CommandName>
+				<ExtendedTooltip name="ФормаОткрытьФормуСписка2022РасширеннаяПодсказка" id="221"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -30,6 +37,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа3" id="200">
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="201"/>
@@ -51,6 +59,7 @@
 					<v8:content>Группа1</v8:content>
 				</v8:item>
 			</Title>
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="203"/>
@@ -58,7 +67,6 @@
 				<CheckBoxField name="ОтборПоАвтору" id="209">
 					<DataPath>ОтборПоАвтору</DataPath>
 					<TitleLocation>None</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОтборПоАвторуКонтекстноеМеню" id="210"/>
 					<ExtendedTooltip name="ОтборПоАвторуРасширеннаяПодсказка" id="211"/>
 					<Events>
@@ -79,6 +87,7 @@
 					<v8:content>Группа2</v8:content>
 				</v8:item>
 			</Title>
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="208"/>
@@ -86,7 +95,6 @@
 				<CheckBoxField name="ОтборПоИсполнителю" id="212">
 					<DataPath>ОтборПоИсполнителю</DataPath>
 					<TitleLocation>None</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОтборПоИсполнителюКонтекстноеМеню" id="213"/>
 					<ExtendedTooltip name="ОтборПоИсполнителюРасширеннаяПодсказка" id="214"/>
 					<Events>
@@ -136,6 +144,7 @@
 							<v8:content>Группа надо сделать</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -143,13 +152,14 @@
 							<v8:content>НС</v8:content>
 						</v8:item>
 					</CollapsedRepresentationTitle>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаНадоСделатьРасширеннаяПодсказка" id="25"/>
 					<ChildItems>
 						<Table name="СписокНадоСделать" id="3">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
 							<DefaultItem>true</DefaultItem>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -232,6 +242,7 @@
 							<v8:content>Группа выполняется</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -239,10 +250,11 @@
 							<v8:content>ВР</v8:content>
 						</v8:item>
 					</CollapsedRepresentationTitle>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаВыполняетсяРасширеннаяПодсказка" id="27"/>
 					<ChildItems>
 						<Table name="СписокВыполняется" id="28">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокВыполняется</DataPath>
@@ -317,6 +329,7 @@
 							<v8:content>Группа на проверке</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -324,10 +337,11 @@
 							<v8:content>НП</v8:content>
 						</v8:item>
 					</CollapsedRepresentationTitle>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаНаПроверкеРасширеннаяПодсказка" id="66"/>
 					<ChildItems>
 						<Table name="СписокНаПроверке" id="67">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокНаПроверке</DataPath>
@@ -401,6 +415,7 @@
 							<v8:content>Группа отложена</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -409,10 +424,11 @@
 						</v8:item>
 					</CollapsedRepresentationTitle>
 					<Collapsed>true</Collapsed>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаОтложенаРасширеннаяПодсказка" id="136"/>
 					<ChildItems>
 						<Table name="СписокОтложена" id="137">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокОтложена</DataPath>
@@ -486,6 +502,7 @@
 							<v8:content>Группа закрыта</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -494,10 +511,11 @@
 						</v8:item>
 					</CollapsedRepresentationTitle>
 					<Collapsed>true</Collapsed>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаЗакрытаРасширеннаяПодсказка" id="154"/>
 					<ChildItems>
 						<Table name="СписокЗакрыта" id="155">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокЗакрыта</DataPath>
@@ -571,6 +589,7 @@
 							<v8:content>Группа отменена</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -579,10 +598,11 @@
 						</v8:item>
 					</CollapsedRepresentationTitle>
 					<Collapsed>true</Collapsed>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаОтмененаРасширеннаяПодсказка" id="172"/>
 					<ChildItems>
 						<Table name="СписокОтменена" id="173">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокОтменена</DataPath>
@@ -656,6 +676,7 @@
 							<v8:content>Группа выполнено</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
 					<Behavior>Collapsible</Behavior>
 					<CollapsedRepresentationTitle>
 						<v8:item>
@@ -663,10 +684,11 @@
 							<v8:content>Вып</v8:content>
 						</v8:item>
 					</CollapsedRepresentationTitle>
+					<Representation>WeakSeparation</Representation>
 					<ExtendedTooltip name="ГруппаВыполненоРасширеннаяПодсказка" id="118"/>
 					<ChildItems>
 						<Table name="СписокВыполнено" id="119">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокВыполнено</DataPath>
@@ -738,6 +760,7 @@
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
@@ -1103,4 +1126,21 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ОткрытьФормуСписка2022" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список задач 2022</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть форму списка 2022</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуСписка2022</Action>
+		</Command>
+	</Commands>
 </Form>

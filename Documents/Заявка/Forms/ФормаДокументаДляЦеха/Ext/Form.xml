@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -46,15 +48,19 @@
 							<v8:content>Страница производство</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаПроизводствоРасширеннаяПодсказка" id="81"/>
 					<ChildItems>
 						<UsualGroup name="Группа3" id="49">
 							<Group>AlwaysHorizontal</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="50"/>
 							<ChildItems>
 								<UsualGroup name="Группа5" id="51">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="52"/>
 									<ChildItems>
@@ -76,6 +82,7 @@
 								</UsualGroup>
 								<UsualGroup name="Группа6" id="59">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="60"/>
 									<ChildItems>
@@ -95,6 +102,7 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа1" id="482">
+									<Group>HorizontalIfPossible</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="483"/>
@@ -127,18 +135,18 @@
 									<v8:content>Группа плотерная резка</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПлотернаяРезкаРасширеннаяПодсказка" id="373"/>
 							<ChildItems>
 								<CheckBoxField name="ВыборкаПлотернаяРезка" id="374">
 									<DataPath>Объект.ВыборкаПлотернаяРезка</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыборкаПлотернаяРезкаКонтекстноеМеню" id="375"/>
 									<ExtendedTooltip name="ВыборкаПлотернаяРезкаРасширеннаяПодсказка" id="376"/>
 								</CheckBoxField>
 								<CheckBoxField name="МонтажкаПлотернаяРезка" id="377">
 									<DataPath>Объект.МонтажкаПлотернаяРезка</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="МонтажкаПлотернаяРезкаКонтекстноеМеню" id="378"/>
 									<ExtendedTooltip name="МонтажкаПлотернаяРезкаРасширеннаяПодсказка" id="379"/>
 								</CheckBoxField>
@@ -146,11 +154,13 @@
 						</UsualGroup>
 						<UsualGroup name="Группа8" id="82">
 							<Group>AlwaysHorizontal</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="83"/>
 							<ChildItems>
 								<UsualGroup name="Группа9" id="84">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="85"/>
 									<ChildItems>
@@ -183,6 +193,7 @@
 								</UsualGroup>
 								<UsualGroup name="Группа10" id="95">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="96"/>
 									<ChildItems>
@@ -212,6 +223,7 @@
 								</UsualGroup>
 								<UsualGroup name="Группа11" id="106">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="107"/>
 									<ChildItems>
@@ -254,9 +266,13 @@
 							<v8:content>Страница постпечатные работы</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаПостпечатныеРаботыРасширеннаяПодсказка" id="121"/>
 					<ChildItems>
 						<Table name="ПостпечатныеРаботы" id="122">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -293,18 +309,21 @@
 								<LabelField name="ПостпечатныеРаботыНомерСтроки" id="135">
 									<DataPath>Объект.ПостпечатныеРаботы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПостпечатныеРаботыНомерСтрокиКонтекстноеМеню" id="136"/>
 									<ExtendedTooltip name="ПостпечатныеРаботыНомерСтрокиРасширеннаяПодсказка" id="137"/>
 								</LabelField>
 								<InputField name="ПостпечатныеРаботыВидРаботПоПериметру" id="138">
 									<DataPath>Объект.ПостпечатныеРаботы.ВидРаботПоПериметру</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПостпечатныеРаботыВидРаботПоПериметруКонтекстноеМеню" id="139"/>
 									<ExtendedTooltip name="ПостпечатныеРаботыВидРаботПоПериметруРасширеннаяПодсказка" id="140"/>
 								</InputField>
 								<InputField name="ПостпечатныеРаботыРазмещение" id="147">
 									<DataPath>Объект.ПостпечатныеРаботы.Размещение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПостпечатныеРаботыРазмещениеКонтекстноеМеню" id="148"/>
 									<ExtendedTooltip name="ПостпечатныеРаботыРазмещениеРасширеннаяПодсказка" id="149"/>
 								</InputField>
@@ -314,12 +333,14 @@
 										<InputField name="ПостпечатныеРаботыКоличествоЛюверсов" id="141">
 											<DataPath>Объект.ПостпечатныеРаботы.РасстояниеМеждуЛюверсами</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПостпечатныеРаботыКоличествоЛюверсовКонтекстноеМеню" id="142"/>
 											<ExtendedTooltip name="ПостпечатныеРаботыКоличествоЛюверсовРасширеннаяПодсказка" id="143"/>
 										</InputField>
 										<InputField name="ПостпечатныеРаботыДиаметрЛюверсов" id="144">
 											<DataPath>Объект.ПостпечатныеРаботы.ДиаметрЛюверсов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПостпечатныеРаботыДиаметрЛюверсовКонтекстноеМеню" id="145"/>
 											<ExtendedTooltip name="ПостпечатныеРаботыДиаметрЛюверсовРасширеннаяПодсказка" id="146"/>
 										</InputField>
@@ -331,12 +352,14 @@
 										<InputField name="ПостпечатныеРаботыКарманы" id="267">
 											<DataPath>Объект.ПостпечатныеРаботы.Карманы</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПостпечатныеРаботыКарманыКонтекстноеМеню" id="268"/>
 											<ExtendedTooltip name="ПостпечатныеРаботыКарманыРасширеннаяПодсказка" id="269"/>
 										</InputField>
 										<InputField name="ПостпечатныеРаботыГлубинаКарманов" id="264">
 											<DataPath>Объект.ПостпечатныеРаботы.ГлубинаКарманов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПостпечатныеРаботыГлубинаКармановКонтекстноеМеню" id="265"/>
 											<ExtendedTooltip name="ПостпечатныеРаботыГлубинаКармановРасширеннаяПодсказка" id="266"/>
 										</InputField>
@@ -359,6 +382,8 @@
 							<v8:content>Страница дополнительно</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаДополнительноРасширеннаяПодсказка" id="151"/>
 					<ChildItems>
 						<InputField name="ДопТребованиеКЗаказу" id="155">
@@ -384,6 +409,8 @@
 									<v8:content>Группа дата ивремя</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>HorizontalIfPossible</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДатаИвремяРасширеннаяПодсказка" id="432"/>
 							<ChildItems>
@@ -423,6 +450,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКонтакноеЛицоРасширеннаяПодсказка" id="448"/>
 							<ChildItems>
@@ -458,6 +486,88 @@
 						</InputField>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаСвязанныеЗаявки" id="487">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Связанные заявки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница связанные заявки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаСвязанныеЗаявкиРасширеннаяПодсказка" id="488"/>
+					<ChildItems>
+						<Table name="СвязанныеДокументы" id="489">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СвязанныеДокументы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СвязанныеДокументыКонтекстноеМеню" id="490">
+								<Autofill>false</Autofill>
+							</ContextMenu>
+							<AutoCommandBar name="СвязанныеДокументыКоманднаяПанель" id="491">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СвязанныеДокументыРасширеннаяПодсказка" id="492"/>
+							<SearchStringAddition name="СвязанныеДокументыСтрокаПоиска" id="493">
+								<AdditionSource>
+									<Item>СвязанныеДокументы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СвязанныеДокументыСтрокаПоискаКонтекстноеМеню" id="494"/>
+								<ExtendedTooltip name="СвязанныеДокументыСтрокаПоискаРасширеннаяПодсказка" id="495"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СвязанныеДокументыСостояниеПросмотра" id="496">
+								<AdditionSource>
+									<Item>СвязанныеДокументы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СвязанныеДокументыСостояниеПросмотраКонтекстноеМеню" id="497"/>
+								<ExtendedTooltip name="СвязанныеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="498"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СвязанныеДокументыУправлениеПоиском" id="499">
+								<AdditionSource>
+									<Item>СвязанныеДокументы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СвязанныеДокументыУправлениеПоискомКонтекстноеМеню" id="500"/>
+								<ExtendedTooltip name="СвязанныеДокументыУправлениеПоискомРасширеннаяПодсказка" id="501"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СвязанныеДокументыНомерСтроки" id="502">
+									<DataPath>Объект.СвязанныеДокументы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="СвязанныеДокументыНомерСтрокиКонтекстноеМеню" id="503"/>
+									<ExtendedTooltip name="СвязанныеДокументыНомерСтрокиРасширеннаяПодсказка" id="504"/>
+								</LabelField>
+								<InputField name="СвязанныеДокументыДокум" id="505">
+									<DataPath>Объект.СвязанныеДокументы.Докум</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="СвязанныеДокументыДокумКонтекстноеМеню" id="506"/>
+									<ExtendedTooltip name="СвязанныеДокументыДокумРасширеннаяПодсказка" id="507"/>
+								</InputField>
+								<InputField name="СвязанныеДокументыСвязаннаяЗаявка" id="508">
+									<DataPath>Объект.СвязанныеДокументы.СвязаннаяЗаявка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="СвязанныеДокументыСвязаннаяЗаявкаКонтекстноеМеню" id="509"/>
+									<ExtendedTooltip name="СвязанныеДокументыСвязаннаяЗаявкаРасширеннаяПодсказка" id="510"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="СтраницаФайлы" id="452">
 					<Title>
 						<v8:item>
@@ -471,9 +581,13 @@
 							<v8:content>Страница файлы</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаФайлыРасширеннаяПодсказка" id="453"/>
 					<ChildItems>
 						<Table name="Файлы" id="454">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -510,18 +624,21 @@
 								<LabelField name="ФайлыНомерСтроки" id="467">
 									<DataPath>Объект.Файлы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ФайлыНомерСтрокиКонтекстноеМеню" id="468"/>
 									<ExtendedTooltip name="ФайлыНомерСтрокиРасширеннаяПодсказка" id="469"/>
 								</LabelField>
 								<InputField name="ФайлыИмяФайла" id="470">
 									<DataPath>Объект.Файлы.ИмяФайла</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ФайлыИмяФайлаКонтекстноеМеню" id="471"/>
 									<ExtendedTooltip name="ФайлыИмяФайлаРасширеннаяПодсказка" id="472"/>
 								</InputField>
 								<InputField name="ФайлыКомментарий" id="476">
 									<DataPath>Объект.Файлы.Комментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ФайлыКомментарийКонтекстноеМеню" id="477"/>
 									<ExtendedTooltip name="ФайлыКомментарийРасширеннаяПодсказка" id="478"/>
 								</InputField>

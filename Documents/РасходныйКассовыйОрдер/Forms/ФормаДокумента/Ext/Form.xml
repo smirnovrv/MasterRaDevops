@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -12,24 +14,27 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="7">
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="8"/>
 			<ChildItems>
 				<InputField name="Дата" id="4">
 					<DataPath>Объект.Date</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 				</InputField>
 				<InputField name="Номер" id="1">
 					<DataPath>Объект.Number</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 				</InputField>
 				<CheckBoxField name="ОтражатьВБУ" id="147">
 					<DataPath>Объект.ОтражатьВБУ</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОтражатьВБУКонтекстноеМеню" id="148"/>
 					<ExtendedTooltip name="ОтражатьВБУРасширеннаяПодсказка" id="149"/>
 				</CheckBoxField>
@@ -41,6 +46,8 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа5" id="145">
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="146"/>
 			<ChildItems>
@@ -51,7 +58,6 @@
 				</InputField>
 				<CheckBoxField name="ОригиналПолучен" id="142">
 					<DataPath>Объект.ОригиналПолучен</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОригиналПолученКонтекстноеМеню" id="143"/>
 					<ExtendedTooltip name="ОригиналПолученРасширеннаяПодсказка" id="144"/>
 				</CheckBoxField>
@@ -74,15 +80,19 @@
 							<v8:content>Страница основное</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="62"/>
 					<ChildItems>
 						<UsualGroup name="Группа10" id="120">
 							<Group>AlwaysHorizontal</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="121"/>
 							<ChildItems>
 								<UsualGroup name="Группа2" id="9">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="10"/>
 									<ChildItems>
@@ -105,6 +115,7 @@
 								</UsualGroup>
 								<UsualGroup name="Группа4" id="28">
 									<Group>Vertical</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="29"/>
 									<ChildItems>
@@ -135,6 +146,8 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа8" id="54">
+									<Group>HorizontalIfPossible</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="55"/>
 									<ChildItems>
@@ -162,10 +175,13 @@
 						</UsualGroup>
 						<UsualGroup name="Группа6" id="38">
 							<Group>Vertical</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="39"/>
 							<ChildItems>
 								<UsualGroup name="Группа3" id="125">
+									<Group>HorizontalIfPossible</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="126"/>
 									<ChildItems>
@@ -182,6 +198,8 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа7" id="52">
+									<Group>HorizontalIfPossible</Group>
+									<Representation>WeakSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="53"/>
 									<ChildItems>
@@ -214,9 +232,13 @@
 							<v8:content>Страница заказы</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаЗаказыРасширеннаяПодсказка" id="64"/>
 					<ChildItems>
 						<Table name="Заказы" id="65">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -256,6 +278,7 @@
 								<LabelField name="ЗаказыНомерСтроки" id="78">
 									<DataPath>Объект.Заказы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыНомерСтрокиКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="ЗаказыНомерСтрокиРасширеннаяПодсказка" id="80"/>
 								</LabelField>
@@ -263,12 +286,14 @@
 									<DataPath>Объект.Заказы.КодЗаказа</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыКодЗаказаКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="ЗаказыКодЗаказаРасширеннаяПодсказка" id="83"/>
 								</InputField>
 								<InputField name="ЗаказыСумма" id="84">
 									<DataPath>Объект.Заказы.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыСуммаКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="ЗаказыСуммаРасширеннаяПодсказка" id="86"/>
 									<Events>
@@ -278,6 +303,7 @@
 								<InputField name="ЗаказыЗаявка" id="87">
 									<DataPath>Объект.Заказы.Заявка</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыЗаявкаКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ЗаказыЗаявкаРасширеннаяПодсказка" id="89"/>
 									<Events>
@@ -287,18 +313,21 @@
 								<InputField name="ЗаказыМатериал" id="127">
 									<DataPath>Объект.Заказы.Материал</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыМатериалКонтекстноеМеню" id="128"/>
 									<ExtendedTooltip name="ЗаказыМатериалРасширеннаяПодсказка" id="129"/>
 								</InputField>
 								<InputField name="ЗаказыКоличество" id="130">
 									<DataPath>Объект.Заказы.Количество</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыКоличествоКонтекстноеМеню" id="131"/>
 									<ExtendedTooltip name="ЗаказыКоличествоРасширеннаяПодсказка" id="132"/>
 								</InputField>
 								<InputField name="ЗаказыСтатьяРасходов" id="133">
 									<DataPath>Объект.Заказы.СтатьяРасходов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыСтатьяРасходовКонтекстноеМеню" id="134"/>
 									<ExtendedTooltip name="ЗаказыСтатьяРасходовРасширеннаяПодсказка" id="135"/>
 									<Events>
@@ -309,6 +338,7 @@
 									<DataPath>Объект.Заказы.НомерСтатьиРасхода</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказыНомерСтатьиРасходаКонтекстноеМеню" id="137"/>
 									<ExtendedTooltip name="ЗаказыНомерСтатьиРасходаРасширеннаяПодсказка" id="138"/>
 								</InputField>
@@ -329,9 +359,13 @@
 							<v8:content>Страница поступлений</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаПоступленийРасширеннаяПодсказка" id="151"/>
 					<ChildItems>
 						<Table name="Поступления" id="152">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -379,12 +413,14 @@
 								<LabelField name="ПоступленияНомерСтроки" id="165">
 									<DataPath>Объект.Поступления.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПоступленияНомерСтрокиКонтекстноеМеню" id="166"/>
 									<ExtendedTooltip name="ПоступленияНомерСтрокиРасширеннаяПодсказка" id="167"/>
 								</LabelField>
 								<InputField name="ПоступленияПоступление" id="168">
 									<DataPath>Объект.Поступления.Поступление</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПоступленияПоступлениеКонтекстноеМеню" id="169"/>
 									<ExtendedTooltip name="ПоступленияПоступлениеРасширеннаяПодсказка" id="170"/>
 									<Events>
@@ -394,6 +430,7 @@
 								<InputField name="ПоступленияСумма" id="173">
 									<DataPath>Объект.Поступления.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПоступленияСуммаКонтекстноеМеню" id="174"/>
 									<ExtendedTooltip name="ПоступленияСуммаРасширеннаяПодсказка" id="175"/>
 								</InputField>
@@ -414,9 +451,13 @@
 							<v8:content>Страница ПКО</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="СтраницаПКОРасширеннаяПодсказка" id="180"/>
 					<ChildItems>
 						<Table name="Приходники" id="181">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -453,18 +494,21 @@
 								<LabelField name="ПриходникиНомерСтроки" id="194">
 									<DataPath>Объект.Приходники.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриходникиНомерСтрокиКонтекстноеМеню" id="195"/>
 									<ExtendedTooltip name="ПриходникиНомерСтрокиРасширеннаяПодсказка" id="196"/>
 								</LabelField>
 								<InputField name="ПриходникиПКО" id="197">
 									<DataPath>Объект.Приходники.ПКО</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриходникиПКОКонтекстноеМеню" id="198"/>
 									<ExtendedTooltip name="ПриходникиПКОРасширеннаяПодсказка" id="199"/>
 								</InputField>
 								<InputField name="ПриходникиСумма" id="200">
 									<DataPath>Объект.Приходники.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриходникиСуммаКонтекстноеМеню" id="201"/>
 									<ExtendedTooltip name="ПриходникиСуммаРасширеннаяПодсказка" id="202"/>
 								</InputField>

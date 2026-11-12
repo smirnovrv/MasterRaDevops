@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -92,6 +93,8 @@
 							<v8:content>Выгрузка</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ВыгрузкаExtendedTooltip" id="240"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаФайлаПравил" id="200">
@@ -205,6 +208,8 @@
 											<v8:content>Выгрузка в файл</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ВыгрузкаВФайлExtendedTooltip" id="246"/>
 									<ChildItems>
 										<InputField name="ИмяФайлаДанных" id="16">
@@ -234,7 +239,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="АрхивироватьФайлКонтекстноеМеню" id="19"/>
 											<ExtendedTooltip name="АрхивироватьФайлExtendedTooltip" id="248"/>
 											<Events>
@@ -252,6 +256,8 @@
 									</ChildItems>
 								</Page>
 								<Page name="ВыгрузкаВИБПриемник" id="7">
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ВыгрузкаВИБПриемникExtendedTooltip" id="250"/>
 									<ChildItems>
 										<Pages name="ГруппаОС" id="355">
@@ -259,6 +265,8 @@
 											<ExtendedTooltip name="ГруппаОСРасширеннаяПодсказка" id="356"/>
 											<ChildItems>
 												<Page name="ГруппаWindows" id="357">
+													<Group>Vertical</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
 													<ExtendedTooltip name="ГруппаWindowsРасширеннаяПодсказка" id="358"/>
 													<ChildItems>
 														<UsualGroup name="ТипПлатформа" id="26">
@@ -402,6 +410,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>Horizontal</Group>
+																	<ScrollOnCompress>false</ScrollOnCompress>
 																	<ExtendedTooltip name="ФайловаяБазаExtendedTooltip" id="255"/>
 																	<ChildItems>
 																		<InputField name="КаталогИнформационнойБазыДляПодключения" id="27">
@@ -425,6 +434,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>Horizontal</Group>
+																	<ScrollOnCompress>false</ScrollOnCompress>
 																	<ExtendedTooltip name="БазаНаСервереExtendedTooltip" id="257"/>
 																	<ChildItems>
 																		<InputField name="ИмяСервераИнформационнойБазыДляПодключения" id="40">
@@ -475,7 +485,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="АутентификацияWindowsИнформационнойБазыДляПодключенияКонтекстноеМеню" id="30"/>
 																	<ExtendedTooltip name="АутентификацияWindowsИнформационнойБазыДляПодключенияExtendedTooltip" id="261"/>
 																	<Events>
@@ -532,6 +541,8 @@
 													</ChildItems>
 												</Page>
 												<Page name="ГруппаLinux" id="359">
+													<Group>Vertical</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
 													<ExtendedTooltip name="ГруппаLinuxРасширеннаяПодсказка" id="360"/>
 													<ChildItems>
 														<LabelDecoration name="ДекорацияНадписьLinux" id="361">
@@ -615,6 +626,8 @@
 											<v8:content>Выгружаемые данные</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ВыгружаемыеДанныеExtendedTooltip" id="270"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаПериодаВыгрузки" id="211">
@@ -650,6 +663,8 @@
 											<Representation>Tree</Representation>
 											<ChangeRowSet>false</ChangeRowSet>
 											<ChangeRowOrder>false</ChangeRowOrder>
+											<RowSelectionMode>Cell</RowSelectionMode>
+											<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -739,7 +754,7 @@
 															<DataPath>Объект.ТаблицаПравилВыгрузки.Включить</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПометкаКонтекстноеМеню" id="141"/>
 															<ExtendedTooltip name="ПометкаExtendedTooltip" id="280"/>
 														</CheckBoxField>
@@ -747,6 +762,7 @@
 															<DataPath>Объект.ТаблицаПравилВыгрузки.Наименование</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПВДКонтекстноеМеню" id="137"/>
 															<ExtendedTooltip name="ПВДExtendedTooltip" id="281"/>
 														</InputField>
@@ -761,6 +777,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ClearButton>true</ClearButton>
 													<ContextMenu name="СсылкаНаУзелОбменаКонтекстноеМеню" id="139"/>
 													<ExtendedTooltip name="СсылкаНаУзелОбменаExtendedTooltip" id="282"/>
@@ -769,7 +786,7 @@
 													<DataPath>Объект.ТаблицаПравилВыгрузки.ЭтоГруппа</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТаблицаПравилВыгрузкиЭтоГруппаКонтекстноеМеню" id="148"/>
 													<ExtendedTooltip name="ТаблицаПравилВыгрузкиЭтоГруппаExtendedTooltip" id="283"/>
 												</CheckBoxField>
@@ -790,11 +807,15 @@
 											<v8:content>Параметры</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ПараметрыExtendedTooltip" id="284"/>
 									<ChildItems>
 										<Table name="ТаблицаНастройкиПараметров" id="58">
 											<Representation>List</Representation>
 											<ChangeRowSet>false</ChangeRowSet>
+											<RowSelectionMode>Cell</RowSelectionMode>
+											<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -849,12 +870,14 @@
 												<InputField name="ТаблицаНастройкиПараметровНаименование" id="143">
 													<DataPath>Объект.ТаблицаНастройкиПараметров.Наименование</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТаблицаНастройкиПараметровНаименованиеКонтекстноеМеню" id="144"/>
 													<ExtendedTooltip name="ТаблицаНастройкиПараметровНаименованиеExtendedTooltip" id="288"/>
 												</InputField>
 												<InputField name="ТаблицаНастройкиПараметровЗначение" id="145">
 													<DataPath>Объект.ТаблицаНастройкиПараметров.Значение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChooseType>false</ChooseType>
 													<ContextMenu name="ТаблицаНастройкиПараметровЗначениеКонтекстноеМеню" id="146"/>
 													<ExtendedTooltip name="ТаблицаНастройкиПараметровЗначениеExtendedTooltip" id="289"/>
@@ -876,6 +899,8 @@
 											<v8:content>Закладка комментарий</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ЗакладкаКомментарийExtendedTooltip" id="290"/>
 									<ChildItems>
 										<InputField name="Комментарий" id="49">
@@ -908,6 +933,7 @@
 							<ChildItems>
 								<Page name="ГруппаВыгрузкаОтладкаДоступна" id="222">
 									<Group>Horizontal</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ГруппаВыгрузкаОтладкаДоступнаExtendedTooltip" id="294"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаОтладкиВыгрузки" id="364">
@@ -926,7 +952,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ФлагРежимОтладкиОбработчиковВыгрузкиКонтекстноеМеню" id="55"/>
 													<ExtendedTooltip name="ФлагРежимОтладкиОбработчиковВыгрузкиExtendedTooltip" id="295"/>
 													<Events>
@@ -951,6 +976,7 @@
 								<Page name="ГруппаВыгрузкаВебКлиент" id="223">
 									<Group>Horizontal</Group>
 									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ГруппаВыгрузкаВебКлиентExtendedTooltip" id="297"/>
 									<ChildItems>
 										<PictureDecoration name="ДекорацияИнформацияВыгрузка" id="224">
@@ -994,6 +1020,8 @@
 							<v8:content>Загрузка</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ЗагрузкаExtendedTooltip" id="300"/>
 					<ChildItems>
 						<Button name="ФормаВыполнитьЗагрузку" id="192">
@@ -1042,7 +1070,6 @@
 						<CheckBoxField name="ИспользоватьТранзакции" id="72">
 							<DataPath>Объект.ИспользоватьТранзакции</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьТранзакцииКонтекстноеМеню" id="73"/>
 							<ExtendedTooltip name="ИспользоватьТранзакцииExtendedTooltip" id="304"/>
 							<Events>
@@ -1063,42 +1090,36 @@
 						<CheckBoxField name="ЗагружатьДанныеВРежимеОбмена" id="76">
 							<DataPath>Объект.ЗагружатьДанныеВРежимеОбмена</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗагружатьДанныеВРежимеОбменаКонтекстноеМеню" id="77"/>
 							<ExtendedTooltip name="ЗагружатьДанныеВРежимеОбменаExtendedTooltip" id="306"/>
 						</CheckBoxField>
 						<CheckBoxField name="ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъекты" id="78">
 							<DataPath>Объект.ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъекты</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъектыКонтекстноеМеню" id="79"/>
 							<ExtendedTooltip name="ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъектыExtendedTooltip" id="307"/>
 						</CheckBoxField>
 						<CheckBoxField name="ОбъектыПоСсылкеЗагружатьБезПометкиУдаления" id="80">
 							<DataPath>Объект.ОбъектыПоСсылкеЗагружатьБезПометкиУдаления</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОбъектыПоСсылкеЗагружатьБезПометкиУдаленияКонтекстноеМеню" id="81"/>
 							<ExtendedTooltip name="ОбъектыПоСсылкеЗагружатьБезПометкиУдаленияExtendedTooltip" id="308"/>
 						</CheckBoxField>
 						<CheckBoxField name="ОптимизированнаяЗаписьОбъектов" id="82">
 							<DataPath>Объект.ОптимизированнаяЗаписьОбъектов</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОптимизированнаяЗаписьОбъектовКонтекстноеМеню" id="83"/>
 							<ExtendedTooltip name="ОптимизированнаяЗаписьОбъектовExtendedTooltip" id="309"/>
 						</CheckBoxField>
 						<CheckBoxField name="ЗаписыватьРегистрыНаборамиЗаписей" id="84">
 							<DataPath>Объект.ЗаписыватьРегистрыНаборамиЗаписей</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаписыватьРегистрыНаборамиЗаписейКонтекстноеМеню" id="85"/>
 							<ExtendedTooltip name="ЗаписыватьРегистрыНаборамиЗаписейExtendedTooltip" id="310"/>
 						</CheckBoxField>
 						<CheckBoxField name="ОбрезатьСтрокиСправа" id="86">
 							<DataPath>Объект.ОбрезатьСтрокиСправа</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОбрезатьСтрокиСправаКонтекстноеМеню" id="87"/>
 							<ExtendedTooltip name="ОбрезатьСтрокиСправаExtendedTooltip" id="311"/>
 						</CheckBoxField>
@@ -1170,6 +1191,7 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
 							<ExtendedTooltip name="ИнформацияОФайлеОбменаExtendedTooltip" id="313"/>
 							<ChildItems>
 								<UsualGroup name="ВерсияПравилГруппа" id="153">
@@ -1236,6 +1258,7 @@
 								<Page name="ГруппаЗагрузкаОтладкаДоступна" id="227">
 									<Group>Horizontal</Group>
 									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ГруппаЗагрузкаОтладкаДоступнаExtendedTooltip" id="321"/>
 									<ChildItems>
 										<CheckBoxField name="ФлагРежимОтладкиОбработчиковЗагрузки" id="90">
@@ -1247,7 +1270,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ФлагРежимОтладкиОбработчиковЗагрузкиКонтекстноеМеню" id="91"/>
 											<ExtendedTooltip name="ФлагРежимОтладкиОбработчиковЗагрузкиExtendedTooltip" id="322"/>
 											<Events>
@@ -1270,6 +1292,7 @@
 								<Page name="ГруппаЗагрузкаВебКлиент" id="228">
 									<Group>Horizontal</Group>
 									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="ГруппаЗагрузкаВебКлиентExtendedTooltip" id="324"/>
 									<ChildItems>
 										<PictureDecoration name="ДекорацияИнформацияЗагрузка" id="229">
@@ -1313,12 +1336,13 @@
 							<v8:content>Настройки обмена данными</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="НастройкиОбменаДаннымиExtendedTooltip" id="327"/>
 					<ChildItems>
 						<CheckBoxField name="ФлагРежимОтладки" id="94">
 							<DataPath>Объект.ФлагРежимОтладки</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ФлагРежимОтладкиКонтекстноеМеню" id="95"/>
 							<ExtendedTooltip name="ФлагРежимОтладкиExtendedTooltip" id="328"/>
 							<Events>
@@ -1328,7 +1352,6 @@
 						<CheckBoxField name="ВыводВОкноСообщенийИнформационныхСообщений" id="96">
 							<DataPath>Объект.ВыводВОкноСообщенийИнформационныхСообщений</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыводВОкноСообщенийИнформационныхСообщенийКонтекстноеМеню" id="97"/>
 							<ExtendedTooltip name="ВыводВОкноСообщенийИнформационныхСообщенийExtendedTooltip" id="329"/>
 						</CheckBoxField>
@@ -1355,6 +1378,7 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
 							<ExtendedTooltip name="НастройкиВыгрузкиДанныхExtendedTooltip" id="331"/>
 							<ChildItems>
 								<CheckBoxField name="ВыполнитьОбменДаннымиВОптимизированномФормате" id="101">
@@ -1366,14 +1390,12 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыполнитьОбменДаннымиВОптимизированномФорматеКонтекстноеМеню" id="102"/>
 									<ExtendedTooltip name="ВыполнитьОбменДаннымиВОптимизированномФорматеExtendedTooltip" id="332"/>
 								</CheckBoxField>
 								<CheckBoxField name="ИспользоватьТранзакцииПриВыгрузкеДляПлановОбмена" id="103">
 									<DataPath>Объект.ИспользоватьТранзакцииПриВыгрузкеДляПлановОбмена</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьТранзакцииПриВыгрузкеДляПлановОбменаКонтекстноеМеню" id="104"/>
 									<ExtendedTooltip name="ИспользоватьТранзакцииПриВыгрузкеДляПлановОбменаExtendedTooltip" id="333"/>
 								</CheckBoxField>
@@ -1397,7 +1419,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыгружатьТолькоРазрешенныеКонтекстноеМеню" id="108"/>
 									<ExtendedTooltip name="ВыгружатьТолькоРазрешенныеExtendedTooltip" id="335"/>
 								</CheckBoxField>
@@ -1410,7 +1431,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВестиДополнительныйКонтрольЗаписиВXMLКонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="ВестиДополнительныйКонтрольЗаписиВXMLExtendedTooltip" id="336"/>
 								</CheckBoxField>
@@ -1488,6 +1508,7 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
 							<ExtendedTooltip name="ПротоколОбменаExtendedTooltip" id="338"/>
 							<ChildItems>
 								<InputField name="ИмяФайлаПротоколаОбмена" id="114">
@@ -1527,21 +1548,18 @@
 								<CheckBoxField name="ДописыватьДанныеВПротоколОбмена" id="118">
 									<DataPath>Объект.ДописыватьДанныеВПротоколОбмена</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ДописыватьДанныеВПротоколОбменаКонтекстноеМеню" id="119"/>
 									<ExtendedTooltip name="ДописыватьДанныеВПротоколОбменаExtendedTooltip" id="341"/>
 								</CheckBoxField>
 								<CheckBoxField name="ВыводВПротоколИнформационныхСообщений" id="120">
 									<DataPath>Объект.ВыводВПротоколИнформационныхСообщений</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыводВПротоколИнформационныхСообщенийКонтекстноеМеню" id="121"/>
 									<ExtendedTooltip name="ВыводВПротоколИнформационныхСообщенийExtendedTooltip" id="342"/>
 								</CheckBoxField>
 								<CheckBoxField name="ОткрыватьПротоколыОбменаПослеВыполненияОпераций" id="122">
 									<DataPath>Объект.ОткрыватьПротоколыОбменаПослеВыполненияОпераций</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОткрыватьПротоколыОбменаПослеВыполненияОперацийКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="ОткрыватьПротоколыОбменаПослеВыполненияОперацийExtendedTooltip" id="343"/>
 								</CheckBoxField>
@@ -1562,6 +1580,8 @@
 							<v8:content>Настройка удаление данных</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="НастройкаУдалениеДанныхExtendedTooltip" id="344"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьПредупреждениеПользователя" id="124">
@@ -1583,7 +1603,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УдалятьОбъектыНаКоторыеЕстьПраваДоступаКонтекстноеМеню" id="127"/>
 							<ExtendedTooltip name="УдалятьОбъектыНаКоторыеЕстьПраваДоступаExtendedTooltip" id="346"/>
 						</CheckBoxField>
@@ -1605,6 +1624,8 @@
 							<Representation>Tree</Representation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -1683,7 +1704,7 @@
 											<DataPath>УдаляемыеДанные.Пометка</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="МетаданныеДляУдаленияПометкаКонтекстноеМеню" id="207"/>
 											<ExtendedTooltip name="МетаданныеДляУдаленияПометкаExtendedTooltip" id="353"/>
 										</CheckBoxField>
@@ -1697,6 +1718,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="МетаданныеДляУдаленияПредставлениеКонтекстноеМеню" id="210"/>
 											<ExtendedTooltip name="МетаданныеДляУдаленияПредставлениеExtendedTooltip" id="354"/>
 										</InputField>
